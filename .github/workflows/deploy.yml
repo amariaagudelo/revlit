@@ -47,6 +47,26 @@ jobs:
         run: |
           npm init -y || true 
           npm install --save-dev sass
+      
+      # --- Pasos de Depuración y PATH Explícito ---
+      - name: Check local Sass installation
+        run: |
+          echo "Listing node_modules/.bin:"
+          ls -la node_modules/.bin
+          echo "Attempting to get Sass version via relative path:"
+          ./node_modules/.bin/sass --version
+          
+      - name: Add local node_modules bin to PATH explicitly
+        run: echo "$(pwd)/node_modules/.bin" >> $GITHUB_PATH
+
+      - name: Verify PATH and Sass again
+        run: |
+          echo "Current PATH: $PATH"
+          echo "Which sass:"
+          which sass
+          echo "Attempting to get Sass version directly:"
+          sass --version
+      # --- Fin Pasos de Depuración ---
           
       - name: Setup Pages 
         id: pages
@@ -55,13 +75,12 @@ jobs:
       - name: Update Hugo Modules 
         run: hugo mod tidy 
         
-      - name: Build with Hugo # Construye el sitio usando variable de entorno para Sass
+      - name: Build with Hugo # Construye el sitio (confiando en el PATH)
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-          HUGO_DART_SASS_TRANSPILERPATH: ./node_modules/.bin/sass # <- CORRECCIÓN AQUÍ
         run: | 
-          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/" # <- BANDERA ELIMINADA AQUÍ
+          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/" 
           
       - name: Upload artifact 
         uses: actions/upload-pages-artifact@v3 
