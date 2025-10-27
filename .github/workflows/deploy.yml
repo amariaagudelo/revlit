@@ -24,16 +24,24 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.151.2 # ¡Verifica que esta sea tu versión!
+      HUGO_VERSION: 0.151.2 # ¡Verifica tu versión!
     steps:
-      # --- USA ESTA ACCIÓN PARA INSTALAR HUGO EXTENDED ---
       - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3 # Acción dedicada para Hugo
+        uses: peaceiris/actions-hugo@v3
         with:
           version: ${{ env.HUGO_VERSION }}
-          extended: true # ¡MUY IMPORTANTE! Asegura la versión con Sass
+          extended: true
 
-      # --- PASOS ANTERIORES DE INSTALACIÓN MANUAL ELIMINADOS ---
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' 
+
+      - name: Install Dart Sass via npm
+        run: sudo npm install -g sass
+
+      - name: Add npm bin to PATH
+        run: echo "$(npm bin -g)" >> $GITHUB_PATH
 
       - name: Checkout code
         uses: actions/checkout@v4
@@ -43,7 +51,7 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5 
-      # - name: Install node dependencies (si tuvieras assets que lo necesiten)
+      # - name: Install node dependencies 
       #   run: npm install 
       - name: Update Hugo Modules
         run: hugo mod tidy 
