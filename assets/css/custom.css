@@ -1,0 +1,19 @@
+/* Ajustes específicos para la página Equipo */
+body.equipo #paige-page-content {
+    max-width: 45rem; /* Limita el ancho */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body.equipo #paige-page-content p {
+    text-align: justify; /* Justifica los párrafos */
+}
+
+.archivo-grid .card .card-img-top {
+    width: 100%;         /* Ocupa el ancho disponible */
+    height: 180px;        /* ALTURA FIJA MÁXIMA (Ajusta este valor) */
+    object-fit: contain; /* Encaja la imagen completa sin distorsión */
+    display: block;      /* Ayuda con la consistencia */
+    margin-top: 0.5rem;    /* Margen superior opcional */
+    margin-bottom: 0.5rem; /* Margen inferior opcional */
+}

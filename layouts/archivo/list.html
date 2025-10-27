@@ -1,0 +1,53 @@
+{{ define "main" }}
+  {{ $page := . }}
+  {{ partial "paige/page.html" $page }} {{/* Incluye estructura base de Paige */}}
+
+  <div id="paige-page-content" class="mw-100"> 
+      {{/* --- Inicio: Texto Introductorio (Leído desde _index.md)--- */}}
+      <div id="paige-list-introduction" class="container-fluid mb-4"> 
+        {{ .Content }} {{/* Muestra el contenido de content/archivo/_index.md */}}
+      </div>
+      {{/* --- Fin: Texto Introductorio --- */}}
+
+      {{/* --- Inicio: Cuadrícula de Tarjetas --- */}}
+      {{ with site.Data.revistas }} 
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 mt-4 archivo-grid"> 
+        {{ range . }} 
+        <div class="col">
+          <div class="card h-100 shadow-sm">
+            {{ $altText := printf "Portada %s" .titulo }}
+            {{ $imgPath := printf "images/portadas/%s" .imagen }} 
+            {{ $imageResource := resources.Get $imgPath }} 
+
+            {{ if $imageResource }}
+              {{ $processedImage := $imageResource.Resize "300x" }} 
+              <img src="{{ $processedImage.RelPermalink }}" 
+                   alt="{{ $altText }}" 
+                   class="card-img-top" 
+                   width="{{ $processedImage.Width }}" 
+                   height="{{ $processedImage.Height }}" 
+                   loading="lazy">
+            {{ else }}
+              <div class="alert alert-danger small p-1 text-center" role="alert">
+                <strong>Error:</strong><br>Imagen no encontrada:<br><code>{{ $imgPath }}</code>
+              </div>
+            {{ end }}
+
+            <div class="card-body d-flex flex-column"> 
+              <h5 class="card-title">{{ .titulo }}</h5>
+              <p class="card-text small text-muted">Editor(es): {{ .editor | default "N/A" }}</p>
+              <p class="card-text small text-muted">Ciudad: {{ .ciudad | default "N/A" }}</p>
+              <p class="card-text small text-muted mb-auto">Años: {{ .circulacion | default "N/A" }}</p> 
+              <a href="{{ .url_digital }}" class="btn btn-sm btn-outline-primary mt-3" target="_blank" rel="noopener noreferrer">Ver en {{ .repositorio | default "Repositorio" }}</a>
+            </div>
+          </div>
+        </div>
+        {{ end }} 
+      </div>
+      {{/* --- Fin: Cuadrícula de Tarjetas --- */}}
+      {{ else }}
+        <p>No se encontraron datos de revistas para mostrar.</p>
+      {{ end }} 
+  </div> 
+
+{{ end }} {{/* Fin define "main" */}}

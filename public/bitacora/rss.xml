@@ -1,0 +1,137 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+    
+        
+
+        
+            
+        
+    
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<rss version="2.0"  xml:lang="es-co"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        
+
+        
+
+        
+            <language>es-co</language>
+        
+
+        
+            <lastBuildDate>Sun, 26 Oct 2025 11:55:00 -05</lastBuildDate>
+        
+
+        
+            <link>http://localhost:1313/revlit/bitacora/</link>
+        
+
+        
+            <atom:link href="http://localhost:1313/revlit/bitacora/rss.xml" hreflang="es-co" rel="self" type="application/rss+xml"/>
+        
+
+        
+            
+
+            <atom:link href="http://localhost:1313/revlit/bitacora/" hreflang="es-co" rel="alternate" type="text/html"/>
+        
+            
+
+            <atom:link href="http://localhost:1313/revlit/bitacora/rss.xml" hreflang="es-co" rel="alternate" type="application/rss+xml"/>
+        
+
+        
+
+        
+
+        
+            <title>Bitacoras · De la tinta al pixel</title>
+        
+
+        
+
+        
+            
+                <item>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+
+                    
+
+                    
+                        <description><![CDATA[<p>¡Bienvenidos a nuestra bitácora de exploración!</p><p>En esta sección compartiremos los descubrimientos, curiosidades y &ldquo;detrás de cámaras&rdquo; de nuestro viaje por los archivos.</p>]]></description>
+                    
+
+                    
+                        <guid isPermaLink="false">tag:localhost:1313,2025-10-20:/revlit/bitacora/mi-primer-hallazgo/</guid>
+                    
+
+                    
+                        <link>http://localhost:1313/revlit/bitacora/mi-primer-hallazgo/</link>
+                    
+
+                    
+                        
+
+                        
+
+                        <atom:link href="http://localhost:1313/revlit/bitacora/mi-primer-hallazgo/" hreflang="es-co" rel="alternate" type="text/html"/>
+                    
+
+                    
+
+                    
+                        <pubDate>Mon, 20 Oct 2025 18:45:00 -05</pubDate>
+                    
+
+                    
+                        <title>Nuestro Primer Hallazgo en la Bitácora</title>
+                    
+                </item>
+            
+        
+    </channel>
+</rss>

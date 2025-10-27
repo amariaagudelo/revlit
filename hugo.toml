@@ -1,0 +1,60 @@
+baseURL = "https://amariaagudelo.github.io/revlit/"
+languageCode = "es-co"
+title = "De la tinta al pixel"
+
+[module]
+  [[module.imports]]
+    path = "github.com/willfaught/paige"
+
+[markup.highlight]
+  noclasses = false
+  style = "github"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  ciudad = "ciudades"
+  repositorio = "repositorios"
+
+[menu]
+  [[menu.main]]
+    name = "Inicio"
+    pageRef = "/"
+    weight = 10 # Primero
+
+  [[menu.main]]
+    name = "Proyecto"
+    pageRef = "/proyecto"
+    weight = 20 # Segundo
+
+  [[menu.main]]
+    name = "Equipo"
+    pageRef = "/equipo"
+    weight = 30 # Tercero
+
+  [[menu.main]]
+    name = "Análisis"
+    pageRef = "/analisis"
+    weight = 40 # Cuarto
+
+  [[menu.main]]
+    name = "Archivo"
+    pageRef = "/archivo"
+    weight = 50 # Quinto
+
+  # --- Ocultos Temporalmente ---
+  # [[menu.main]]
+  #   name = "Bitácora" 
+  #   pageRef = "/blog"
+  #   weight = 60 # (Peso original)
+
+  # [[menu.main]]
+  #   name = "Metodología"
+  #   pageRef = "/metodologia"
+  #   weight = 70 # (Peso original)
+
+[params.paige.site]
+  disable_breadcrumbs = true

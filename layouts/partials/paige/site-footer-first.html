@@ -1,0 +1,11 @@
+{{/* layouts/partials/paige/site-footer-last.html */}}
+<div class="container text-center text-muted small py-2">
+  <div class="mb-1">
+    Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreferrer">Hugo</a> &amp; {{ site.Params.paige.site.credit | default `<a href="https://github.com/willfaught/paige" target="_blank" rel="noopener noreferrer">Paige Theme</a>` | safeHTML }}.
+  </div>
+  <div>
+    Última actualización: {{ now.Format "January 2006" | i18n "month" }} {{ now.Format "2006" }}
+    {{/* Formatea como "Octubre 2025". Ajusta "January 2006" si necesitas otro formato Go */}}
+    {{/* i18n "month" intenta traducir el mes al español si tienes archivos de idioma */}}
+  </div>
+</div>

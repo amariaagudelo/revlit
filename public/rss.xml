@@ -1,0 +1,366 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<rss version="2.0"  xml:lang="es-co"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        
+
+        
+
+        
+            <language>es-co</language>
+        
+
+        
+            <lastBuildDate>Sun, 26 Oct 2025 11:55:00 -05</lastBuildDate>
+        
+
+        
+            <link>http://localhost:1313/revlit/</link>
+        
+
+        
+            <atom:link href="http://localhost:1313/revlit/rss.xml" hreflang="es-co" rel="self" type="application/rss+xml"/>
+        
+
+        
+            
+
+            <atom:link href="http://localhost:1313/revlit/" hreflang="es-co" rel="alternate" type="text/html"/>
+        
+            
+
+            <atom:link href="http://localhost:1313/revlit/rss.xml" hreflang="es-co" rel="alternate" type="application/rss+xml"/>
+        
+
+        
+
+        
+
+        
+            <title>De la tinta al pixel</title>
+        
+
+        
+
+        
+            
+                <item>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+
+                    
+
+                    
+                        <description><![CDATA[<p>El interés por las revistas culturales y por las Humanidades Digitales (HD) unió en 2019 a investigadoras, investigadores y estudiantes de la <a href=https://uni-tuebingen.de/en/ target=_blank rel="noopener noreferrer">Universidad de Tübingen</a> (Alemania) y de la <a href=URL_UNIVERSIDAD_ANTIOQUIA target=_blank rel="noopener noreferrer">Universidad de Antioquia</a> (Colombia), quienes colectivamente diseñaron el proyecto de investigación <em>Digitalización y transferencias culturales en las revistas literarias colombianas (1892-1950)</em> [<em>Digitization and Analysis of Cultural Transfers in Colombian Literary Magazines (1892–1950)</em>], financiado por la <a href="https://gepris.dfg.de/gepris/projekt/461914510?language=en" target=_blank rel="noopener noreferrer">DFG</a> y la <a href="https://www.udea.edu.co/wps/portal/udea/web/generales/interna/unidades%20acad!c3!a9micas/comunicaciones/ascontenidos/aslistado/aprobado-primer-proyecto-en-convocatoria-entre-udea-y-fundacion-alemana-de%20investigacion-cientifica/!ut/p/z1/3VTLdtowEP2VZMFSSLZ5mOxch5MeHgGSEMCbnEEWtlpbcmQBoV_fMckipKG0J20X9cKasefOXM_4Do3onEYKNjIBK7WCDP1F1HrwO6HrBA02uLrphSxohUG3fXs_cH2Xzg4DWN9psmDSHV_fjcLxZc-l0a_g2ZErYKfw9zSiUcFlTBe8Efu-J4A0oIW3JV-SThtapMUgbnpLYC7nVTRXtrApXRTaWMjWsYAag_LQS3Uunu21kjHEojwDDvE5986hk0sOZY1xneNLDhxbJcoKxbWyAuP13stkaSHWaBZGL9EihZG5MHjoneBWE6EIQjaag9VGAvrWCFLVJTuyWqt4n5tAJnJQQGJxJtVGlBbns3_BJSLkCjm8ncOPjYp-3uZZ1ZnjGfpj923AO6M-VWSBJNtHSY4cOttIsaVTpU2OP9_tb87286kKDfbBCs_pryfNruOGbDBibpdNRp96V4Ohw0ah-0fSH2Xv_NX0_Y-y753SKi4T1wzDYYJpwaZEqpWm82MCo_NDgdH5a4FV3ovA0PwHAkPy8svjYxTgAqlYPFk6_682CI4vybDKfukHaun5OCcjVsIIU18bfJxaW5QXNVZj2-22nmidZKKO31Bj70FSXWKLDiNpkU-nue_tyNcbf3u3SpP8Ydj1mi9HllzuvG8DMQu-A-HXRBI!/dz/d5/L2dBISEvZ0FBIS9nQSEh/?page=udea.generales.interna&urile=wcm%3Apath%3A%2FPortalUdeA%2FasPortalUdeA%2FasHomeUdeA%2FUnidades%2BAcad%2521c3%2521a9micas%2FComunicaciones%2FasContenidos%2FasListado%2FAprobado-primer-proyecto-en-Convocatoria-entre-UdeA-y-Fundacion-Alemana-de%2BInvestigacion-Cientifica" target=_blank rel="noopener noreferrer">Universidad de Antioquia</a>.</p><p>Con el propósito de estudiar un corpus de <a href=http://localhost:1313/revlit/archivo/>28 revistas</a>
+culturales colombianas, este proyecto conjugó la trayectoria del grupo <em>Colombia: tradiciones de la palabra</em> en el estudio de revistas y literatura colombianas, con la experiencia del equipo <a href=https://www.revistas-culturales.de/es target=_blank rel="noopener noreferrer"><em>Revistas culturales 2.0</em></a> en el análisis de revistas culturales con metodologías de las HD. Específicamente, la investigación aporta al análisis de los modos, agentes, ideas y materialidades que jugaron un papel clave en las dinámicas literarias del país, de las cuales quedaron huellas en los impresos periódicos, en cuyas páginas aparecieron obras literarias extranjeras, traducciones y adaptaciones, artículos críticos y reseñas, y perfiles de escritores y escritoras; también, evidencias de la producción, comercialización, divulgación y recepción de impresos, prácticas necesarias para la circulación de ideas.</p><p>El proyecto se estructuró en torno a un objetivo central: estudiar las transferencias culturales mediante el análisis de un corpus de revistas editadas por colombianos; la sociología de la literatura y herramientas de digitalización, análisis y visualización de datos estuvieron en la base metodológica. Durante sus 5 años de duración (2021-2025), el equipo de trabajo obtuvo importantes resultados: formación de investigadoras e investigadores; presentación de ponencias y conferencias en eventos, tanto presenciales como en remoto, en diferentes países latinoamericanos y europeos; organización de eventos académicos; diseño, puesta a prueba y consolidación de un protocolo de digitalización <em>minimal computing</em>; los cimientos de un repositorio de revistas literarias colombianas; bases de datos que registran las evidencias de transferencias en el corpus de revistas estudiado; visualizaciones; textos académicos y de divulgación de la ciencia, y consolidación de redes de investigación.</p>]]></description>
+                    
+
+                    
+                        <guid isPermaLink="false">tag:localhost:1313,2025-10-25:/revlit/proyecto/</guid>
+                    
+
+                    
+                        <link>http://localhost:1313/revlit/proyecto/</link>
+                    
+
+                    
+                        
+
+                        
+
+                        <atom:link href="http://localhost:1313/revlit/proyecto/" hreflang="es-co" rel="alternate" type="text/html"/>
+                    
+
+                    
+
+                    
+                        <pubDate>Sat, 25 Oct 2025 15:00:00 -05</pubDate>
+                    
+
+                    
+                        <title>Proyecto</title>
+                    
+                </item>
+            
+        
+            
+                <item>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+
+                    
+
+                    
+                        <description><![CDATA[<p>Durante sus casi 5 años de duración (2020-2025), el proyecto obtuvo importantes resultados: formación de investigadoras e investigadores; presentación de ponencias y conferencias en eventos, tanto presenciales como en remoto, en diferentes países latinoamericanos y europeos; organización de eventos académicos; diseño, puesta a prueba y consolidación de un protocolo de digitalización minimal computing; los cimientos de un repositorio de revistas literarias colombianas; bases de datos que registran las evidencias de transferencias en el corpus de revistas estudiado; visualizaciones; textos académicos y de divulgación de la ciencia; consolidación de redes de investigación.</p><p>Este sitio web reúne la mayor parte de esos resultados y los pone a disposición de todas las personas interesadas en: las dinámicas de circulación de ideas a través de los impresos, en el análisis y visualización de datos como aporte a los estudios literarios, en la preservación de archivos impresos con herramientas de <em>minimal computing.</em></p><h3 id=proceso-de-digitalización>Proceso de digitalización</h3><ul><li><p><span class=paige-shortcode-icon><i class="bi bi-book-fill"></i></span>
+<strong>Manual de digitalización</strong><br>Una de las líneas de experimentación, formación y desarrollo de la investigación tuvo como resultado un protocolo de digitalización <em>minimal computing</em>. La documentación de esta etapa del proyecto derivó en un Manual dirigido a personal de bibliotecas, archivos y centros de documentación; investigadores, estudiantes y gestores culturales; colectivos ciudadanos o cualquier persona interesada en preservar materiales impresos mediante la digitalización, sin la necesidad de contar con un presupuesto elevado. <a href=https://zenodo.org/records/17248179 target=_blank rel="noopener noreferrer">Acceder al Manual de digitalización</a></p></li><li><p><span class=paige-shortcode-icon><i class="bi bi-archive-fill"></i></span>
+<strong>Repositorio Revistas Culturales y Literarias</strong>.<br>El corpus de revistas objeto de estudio se encuentra disperso en diferentes bibliotecas del país y del exterior, algunas de ellas hacen parte de la colección patrimonial del Sistema de Bibliotecas de la Universidad de Antioquia. En el marco del proyecto, estas últimas fueron digitalizadas con el fin de crear un repositorio de revistas culturales y de sentar las bases de un flujo de digitalización permanente, gracias al cual se aporta a la preservación digital y democratización del acceso al archivo patrimonial custodiado por la Universidad. <a href=https://hdl.handle.net/10495/29648 target=_blank rel="noopener noreferrer">Explorar el Repositorio</a></p></li><li><p><span class=paige-shortcode-icon><i class="bi bi-camera-fill"></i></span>
+<strong>Escáner Úrsula (DIY)</strong><br>La imposibilidad de contar con un escáner de alto costo fue la motivación para desarrollar un proceso de creación y experimentación conjunta donde estudiantes, investigadores y personal técnico aportaron sus habilidades y conocimientos para el diseño, construcción y puesta en funcionamiento de Úrsula. <a href="https://www.youtube.com/watch?v=jE0OanUoI1g&list=PLrSbk8QC4eCmo8fQ8LPd10DAGCAwQ9vT0&index=7" target=_blank rel="noopener noreferrer">Sobre el proceso de construcción de Úrsula</a></p></li></ul><h3 id=proceso-de-indexación-y-datasets>Proceso de indexación y datasets</h3><ul><li><p><span class=paige-shortcode-icon><i class="bi bi-clipboard-check-fill"></i></span>
+<strong>Protocolo de indexación</strong><br>La búsqueda de indicios de transferencias literarias se sistematizó en bases de datos, las cuales posteriormente fueron analizadas con metodologías computacionales y postulados de la sociología de la literatura. Para el adecuado diligenciamiento de las bases de datos se diseñó un Protocolo de uso, con el fin de minimizar los errores y unificar los criterios de compilación de la información. <a href=https://doi.org/10.5281/zenodo.6965032 target=_blank rel="noopener noreferrer">Acceder al Protocolo</a></p></li><li><p><span class=paige-shortcode-icon><i class="bi bi-database-fill"></i></span>
+<strong>Bases de datos (datasets)</strong><br>Los conjuntos de datos incluyen los modelos de captura de datos de las 28 revistas, un modelo unificado con datos biográficos de los autores encontrados, un subconjunto de datos con las traducciones que se publicaron en estas revistas, otro con los textos publicados por mujeres y un modelo de datos para el análisis y visualización de redes. <a href=https://doi.org/10.5281/zenodo.15153917 target=_blank rel="noopener noreferrer">Acceder a las bases de datos</a></p></li></ul><h3 id=modelado-de-datos-y-redes>Modelado de datos y redes</h3><ul><li><p><span class=paige-shortcode-icon><i class="bi bi-git"></i></span>
+<strong>Notebook:</strong> Revistas culturales y literarias colombianas (1881-1947): análisis y visualización de datos <a href=https://https://danilopenagos.github.io/Revistas-Culturales-Colombianas-1881-1947 target=_blank rel="noopener noreferrer">Acceder</a></p></li><li><p><span class=paige-shortcode-icon><i class="bi bi-git"></i></span>
+<strong>Notebook:</strong> Modelado de datos para el análisis de redes en revistas colombianas <a href=https://danilopenagos.github.io/revistas-culturales-data-sprint-04/ target=_blank rel="noopener noreferrer">Acceder</a></p></li><li><p><span class=paige-shortcode-icon><i class="bi bi-journal-text"></i></span>
+<strong>Artículo:</strong> Penagos Jaramillo, D., y Vargas Castro, N. (2024). Modelado de datos para el estudio de redes en revistas culturales y literarias: estudio de caso con trece publicaciones colombianas. Cuadernos del CILHA, (40) <a href=https://doi.org/10.48162/rev.34.090 target=_blank rel="noopener noreferrer">Acceder</a></p></li><li><p><span class=paige-shortcode-icon><i class="bi bi-journal-text"></i></span>
+<strong>Artículo:</strong> Ehrlicher, H. (2024). Redes en revistas y revistas como redes: nuevos retos metodológicos. Cuadernos del CILHA, (40) <a href=https://doi.org/10.48162/rev.34.087 target=_blank rel="noopener noreferrer">Acceder</a></p></li></ul><h3 id=investigaciones-estudiantes-en-formación-posgrado-y-pregrado>Investigaciones estudiantes en formación: posgrado y pregrado</h3><ul><li><p><span class=paige-shortcode-icon><i class="bi bi-mortarboard-fill"></i></span>
+<strong>Trabajo de grado:</strong> Transferencias culturales en <em>Panida</em> (1915): una aproximación
+desde el análisis de redes. Trabajo de grado Filología Hispánica (Universidad de Antioquia), Andrés Felipe López E. <a href=https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/c393c5eb-1a96-4086-baa7-f34b64d9b19e/content target=_blank rel="noopener noreferrer">Acceder</a></p></li><li><p><span class=paige-shortcode-icon><i class="bi bi-mortarboard-fill"></i></span>
+<strong>Monografía maestría:</strong> Revista <em>Athenea</em> (Medellín, 1927-1928): prácticas revisteriles y transferencias culturales en una revista editada por mujeres y dirigida al público femenino. Trabajo de investigación de Maestría en Literatura (Universidad de Antioquia), Cynthia González Pulgarín <a href=https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/f85a8418-1bb6-4f83-91c5-8088ac60c8b3/content target=_blank rel="noopener noreferrer">Acceder</a></p></li><li><p><span class=paige-shortcode-icon><i class="bi bi-mortarboard-fill"></i></span>
+<strong>Tesis doctoral:</strong> Transferencias culturales y análisis de redes en seis revistas colombianas (1904-1920). Investigación doctoral (Universidad de Tübingen, Nancy Vargas Castro. En curso</p></li><li><p><span class=paige-shortcode-icon><i class="bi bi-mortarboard-fill"></i></span>
+<strong>Tesis doctoral:</strong> Edición crítico-genética digital de Frutos de mi tierra (1896) de Tomás Carrasquilla y la configuración de la ciudad finisecular en la voz del narrador del relato. Investigación doctoral (Universidad de Antioquia), Juan Esteban Hincapié. En curso</p></li></ul>]]></description>
+                    
+
+                    
+                        <guid isPermaLink="false">tag:localhost:1313,2025-10-25:/revlit/analisis/</guid>
+                    
+
+                    
+                        <link>http://localhost:1313/revlit/analisis/</link>
+                    
+
+                    
+                        
+
+                        
+
+                        <atom:link href="http://localhost:1313/revlit/analisis/" hreflang="es-co" rel="alternate" type="text/html"/>
+                    
+
+                    
+
+                    
+                        <pubDate>Sat, 25 Oct 2025 00:00:00 -05</pubDate>
+                    
+
+                    
+                        <title>Análisis y Procesos</title>
+                    
+                </item>
+            
+        
+            
+                <item>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+
+                    
+
+                    
+                        <description><![CDATA[<p>El proyecto <em>Digitalización y transferencias culturales en las revistas literarias colombianas (1892-1950)</em> es una apuesta colectiva que aúna los esfuerzos de investigadores, investigadoras, estudiantes y personal técnico de la Universidad de Antioquia y de la Universidad de Tübingen. La coordinación académica y la administración del proyecto estuvieron a cargo de la Dra. Ana María Agudelo Ochoa (Universidad de Antioquia) y del Dr. Phil. Hanno Ehrlicher (Universidad de Tübingen). Ellos, junto a Nancy Vargas Castro (Universidad de Antioquia- Universidad de Tübingen), Danilo Penagos Jaramillo (Universidad de Antioquia -Universidad de Tübingen) y Jörg Lehmann (Universidad de Tübingen), diseñaron el proyecto y gestionaron su financiación por parte de la DFG y la Universidad de Antioquia. A lo largo de los 5 años de trabajo, muchas personas se unieron y aportaron al logro de los objetivos.</p><h3 id=coordinación-académica-y-administración-del-proyecto>Coordinación académica y administración del proyecto</h3><ul><li><a href=https://antioquia.academia.edu/AnaMariaAgudeloOchoa target=_blank rel="noopener noreferrer">Dra. Ana María Agudelo Ochoa</a> y <a href=https://uni-tuebingen.de/en/fakultaeten/philosophische-fakultaet/fachbereiche/neuphilologie/romanisches-seminar/ehrlicher/ehrlicher/ target=_blank rel="noopener noreferrer">Dr. Phil. Hanno Ehrlicher</a>.</li></ul><h3 id=co-investigadores-y-equipo-de-diseño-del-proyecto>Co-investigadores y equipo de diseño del proyecto:</h3><ul><li><p><a href=https://uni-tuebingen.de/en/fakultaeten/philosophische-fakultaet/fachbereiche/neuphilologie/romanisches-seminar/ehrlicher/ehrlicher/team/nancy-vargas-castro/ target=_blank rel="noopener noreferrer">Nancy Vargas Castro</a></p></li><li><p><a href=https://uni-tuebingen.de/en/fakultaeten/philosophische-fakultaet/fachbereiche/neuphilologie/romanisches-seminar/ehrlicher/ehrlicher/team/danilo-penagos/ target=_blank rel="noopener noreferrer">Danilo Penagos Jaramillo</a></p></li><li><p><a href=https://www.cais-research.de/en/fellows/joerg-lehmann/ target=_blank rel="noopener noreferrer">Jörg Lehmann</a></p></li><li><p><a href="https://scholar.google.com/citations?user=Nj9HtucAAAAJ&hl=es" target=_blank rel="noopener noreferrer">Almary Cristina Díaz G.</a></p></li></ul><h3 id=estudiantes-de-posgrado>Estudiantes de posgrado</h3><ul><li>Nancy Díaz Castro (Doctorado, Universidad de Tübingen)</li><li>Juan Esteban Hincapié (Doctorado, Universidad de Antioquia)</li><li>Cynthia González Pulgarín (Maestría, Universidad de Antioquia)</li></ul><h3 id=estudiantes-de-pregrado>Estudiantes de pregrado</h3><ul><li>Andrés López (Filología Hispánica)</li><li>Santiago Puerta (Filología Hispánica)</li><li>Melany Castro (Filología Hispánica)</li><li>Natalia Ariza (Filología Hispánica)</li><li>Natalia Restrepo (Filología Hispánica)</li><li>Melissa Arteaga (Historia)</li><li>Karen Urrego (Filología Hispánica)</li><li>Daniela López (Filología Hispánica)</li><li>Juliana Betancur (Periodismo)</li><li>David Cardona (Filología Hispánica)</li><li>Saile Conde (Filología Hispánica)</li></ul><h3 id=co-investigadoras-y-asesoras-académicas>Co-investigadoras y asesoras académicas</h3><ul><li>Dra. Tatiana Pérez Robles (Departamento de Historia, Universidad de Antioquia)</li><li>Dra. Paula Andrea Montoya (Escuela de Idiomas, Universidad de Antioquia)</li></ul><h3 id=personal-sistema-de-bibliotecas-universidad-de-antioquia>Personal Sistema de Bibliotecas Universidad de Antioquia</h3><ul><li>José Luis Arboleda (Coordinador de Colecciones Patrimoniales)</li><li>Iván Guzmán (Procesos Técnicos)</li><li>Manuela Vélez (Coordinadora Sistema de Revistas)</li><li>Huber Fernando Gómez (Jefe de Servicios)</li><li>Cesar Augusto Salazar Romaña (Líder Proceso Gestión de Tecnología Informática)</li><li>Andrés Felipe Pérez Bedoya (Ingeniero de Desarrollo)</li></ul><h3 id=asesores-técnicos>Asesores técnicos</h3><ul><li>Mag. Juan Pablo Sánchez</li><li>Dr. Víctor Vallejo Z.</li></ul><hr><p>*Las afiliaciones institucionales corresponden a las que estaban activas al momento de participar en el proyecto.</p>]]></description>
+                    
+
+                    
+                        <guid isPermaLink="false">tag:localhost:1313,2025-10-23:/revlit/equipo/</guid>
+                    
+
+                    
+                        <link>http://localhost:1313/revlit/equipo/</link>
+                    
+
+                    
+                        
+
+                        
+
+                        <atom:link href="http://localhost:1313/revlit/equipo/" hreflang="es-co" rel="alternate" type="text/html"/>
+                    
+
+                    
+
+                    
+                        <pubDate>Thu, 23 Oct 2025 00:00:00 -05</pubDate>
+                    
+
+                    
+                        <title>Equipo de Investigación</title>
+                    
+                </item>
+            
+        
+            
+                <item>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                        
+                    
+
+                    
+                    
+                    
+
+                    
+
+                    
+
+                    
+                        <guid isPermaLink="false">tag:localhost:1313,2025-10-20:/revlit/metodologia/</guid>
+                    
+
+                    
+                        <link>http://localhost:1313/revlit/metodologia/</link>
+                    
+
+                    
+                        
+
+                        
+
+                        <atom:link href="http://localhost:1313/revlit/metodologia/" hreflang="es-co" rel="alternate" type="text/html"/>
+                    
+
+                    
+
+                    
+                        <pubDate>Mon, 20 Oct 2025 20:01:27 -05</pubDate>
+                    
+
+                    
+                        <title>Metodología</title>
+                    
+                </item>
+            
+        
+            
+                <item>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+                    
+
+                    
+
+                    
+                        <description><![CDATA[<p>¡Bienvenidos a nuestra bitácora de exploración!</p><p>En esta sección compartiremos los descubrimientos, curiosidades y &ldquo;detrás de cámaras&rdquo; de nuestro viaje por los archivos.</p>]]></description>
+                    
+
+                    
+                        <guid isPermaLink="false">tag:localhost:1313,2025-10-20:/revlit/bitacora/mi-primer-hallazgo/</guid>
+                    
+
+                    
+                        <link>http://localhost:1313/revlit/bitacora/mi-primer-hallazgo/</link>
+                    
+
+                    
+                        
+
+                        
+
+                        <atom:link href="http://localhost:1313/revlit/bitacora/mi-primer-hallazgo/" hreflang="es-co" rel="alternate" type="text/html"/>
+                    
+
+                    
+
+                    
+                        <pubDate>Mon, 20 Oct 2025 18:45:00 -05</pubDate>
+                    
+
+                    
+                        <title>Nuestro Primer Hallazgo en la Bitácora</title>
+                    
+                </item>
+            
+        
+    </channel>
+</rss>

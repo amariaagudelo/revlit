@@ -1,0 +1,81 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+    
+
+    
+        
+
+        
+            
+        
+    
+
+
+
+
+<?xml version="1.0" encoding="utf-8"?>
+
+<rss version="2.0"  xml:lang="es-co"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        
+
+        
+
+        
+            <language>es-co</language>
+        
+
+        
+            <lastBuildDate>Sun, 26 Oct 2025 11:55:00 -05</lastBuildDate>
+        
+
+        
+            <link>http://localhost:1313/revlit/tags/</link>
+        
+
+        
+            <atom:link href="http://localhost:1313/revlit/tags/rss.xml" hreflang="es-co" rel="self" type="application/rss+xml"/>
+        
+
+        
+            
+
+            <atom:link href="http://localhost:1313/revlit/tags/" hreflang="es-co" rel="alternate" type="text/html"/>
+        
+            
+
+            <atom:link href="http://localhost:1313/revlit/tags/rss.xml" hreflang="es-co" rel="alternate" type="application/rss+xml"/>
+        
+
+        
+
+        
+
+        
+            <title>Tags · De la tinta al pixel</title>
+        
+
+        
+
+        
+    </channel>
+</rss>

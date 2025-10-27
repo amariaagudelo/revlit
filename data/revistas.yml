@@ -1,0 +1,33 @@
+# Archivo: data/revistas.yml (Versión de prueba con 3 revistas)
+
+- titulo: "Revista Femenina"
+  editor: "Tulia Restrepo Gaviria" # Según tu archivo
+  ciudad: "Medellín"             # Según tu archivo
+  circulacion: "1938-1943"  # Reemplazar
+  repositorio: "Biblioteca UdeA" # Según tu archivo
+  url_digital: "https://hdl.handle.net/10495/29648"  # Reemplazar
+  imagen: "femenina.jpeg"      # Nombre exacto del archivo optimizado
+
+- titulo: "Athenea"
+  editor: "Susana Olózaga de Cabo" # Según tu archivo
+  ciudad: "Medellín"      # Reemplazar (BLAA es repositorio)
+  circulacion: "1927-1928"   # Reemplazar
+  repositorio: "Biblioteca UdeA"             # Según tu archivo
+  url_digital: "https://hdl.handle.net/10495/29648" # Según tu archivo
+  imagen: "athenea.jpeg"        # Nombre exacto del archivo optimizado
+
+- titulo: "Lectura y arte"
+  editor: "Antonio J. Cano"        # Según tu archivo
+  ciudad: "Medellín"             # Según tu archivo
+  circulacion: "1903-1905" # Reemplazar
+  repositorio: "BLAA" # Según tu archivo
+  url_digital: "https://babel.banrepcultural.org/digital/collection/p17054coll26/id/7445/rec/1" # URL ajustada según tu archivo
+  imagen: "lecturayarte.jpeg"  # Nombre exacto del archivo optimizado
+
+- titulo: "Alpha"
+  editor: "J. Yepes Morales y Jorge López Sanín"
+  ciudad: "Medellín"             
+  circulacion: "1930"         # Dato de la imagen
+  repositorio: "IAI" 
+  url_digital: "http://resolver.iai.spk-berlin.de/IAI0000695300000000 " # URL de la imagen
+  imagen: "alpha.jpeg" # Verificar nombre exacto
