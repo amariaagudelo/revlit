@@ -26,18 +26,15 @@ jobs:
     env:
       HUGO_VERSION: 0.151.2 # ¡Verifica que esta sea tu versión!
     steps:
-      - name: Install Hugo CLI
-        run: |
-          wget -O ${{ runner.temp }}/hugo.deb https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb \
-          && sudo dpkg -i ${{ runner.temp }}/hugo.deb          
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
+      # --- USA ESTA ACCIÓN PARA INSTALAR HUGO EXTENDED ---
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3 # Acción dedicada para Hugo
         with:
-          node-version: '20' 
-      - name: Install Dart Sass via npm
-        run: sudo npm install -g sass
-      - name: Add npm bin to PATH
-        run: echo "$(npm bin -g)" >> $GITHUB_PATH
+          version: ${{ env.HUGO_VERSION }}
+          extended: true # ¡MUY IMPORTANTE! Asegura la versión con Sass
+
+      # --- PASOS ANTERIORES DE INSTALACIÓN MANUAL ELIMINADOS ---
+
       - name: Checkout code
         uses: actions/checkout@v4
         with:
@@ -47,14 +44,14 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5 
       # - name: Install node dependencies (si tuvieras assets que lo necesiten)
-      #   run: npm install # Descomenta si usas JS que requiera npm
+      #   run: npm install 
       - name: Update Hugo Modules
         run: hugo mod tidy 
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
-        run: | # <- INDENTACIÓN CORREGIDA AQUÍ
+        run: | 
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/" 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3 
