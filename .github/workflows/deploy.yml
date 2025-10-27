@@ -37,37 +37,41 @@ jobs:
         with:
           node-version: '20' 
 
-      - name: Install Dart Sass via npm (no sudo) # Instala Sass globalmente sin sudo
-        run: npm install -g sass
+      # --- ELIMINA LOS PASOS GLOBALES DE SASS ---
+      # - name: Install Dart Sass via npm (global)
+      #   run: sudo npm install -g sass 
+      # - name: Add npm bin to PATH
+      #   run: echo "$(npm bin -g)" >> $GITHUB_PATH
+      # - name: Verify Sass Installation (global)
+      #   run: sass --version 
 
-      - name: Add npm bin to PATH # Añade la carpeta global de npm al PATH
-        run: echo "$(npm bin -g)" >> $GITHUB_PATH
-
-      # --- PASO DE VERIFICACIÓN CLAVE ---
-      - name: Verify Sass Installation # Comprueba si Sass es ejecutable
-        run: sass --version 
-      # --- FIN PASO DE VERIFICACIÓN ---
-
-      - name: Checkout code # Descarga tu código
+      - name: Checkout code # Descarga tu código ANTES de instalar localmente
         uses: actions/checkout@v4
         with:
           submodules: true 
           fetch-depth: 0 
 
+      # --- AÑADE INSTALACIÓN LOCAL DE SASS ---
+      - name: Initialize npm and Install Sass Locally 
+        run: |
+          npm init -y || true 
+          npm install --save-dev sass
+      # --- FIN INSTALACIÓN LOCAL ---
+          
       - name: Setup Pages # Configura GitHub Pages
         id: pages
         uses: actions/configure-pages@v5 
-
+        
       - name: Update Hugo Modules # Actualiza módulos del tema
         run: hugo mod tidy 
-
+        
       - name: Build with Hugo # Construye el sitio
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: | 
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/" 
-
+          
       - name: Upload artifact # Sube el resultado (/public)
         uses: actions/upload-pages-artifact@v3 
         with:
