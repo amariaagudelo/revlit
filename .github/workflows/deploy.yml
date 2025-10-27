@@ -55,12 +55,13 @@ jobs:
       - name: Update Hugo Modules 
         run: hugo mod tidy 
         
-      - name: Build with Hugo # Construye el sitio especificando la ruta de Sass
+      - name: Build with Hugo # Construye el sitio usando variable de entorno para Sass
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
+          HUGO_DART_SASS_TRANSPILERPATH: ./node_modules/.bin/sass # <- CORRECCIÓN AQUÍ
         run: | 
-          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/" --dartSass.transpilerPath ./node_modules/.bin/sass 
+          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/" # <- BANDERA ELIMINADA AQUÍ
           
       - name: Upload artifact 
         uses: actions/upload-pages-artifact@v3 
