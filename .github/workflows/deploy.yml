@@ -32,35 +32,44 @@ jobs:
           version: ${{ env.HUGO_VERSION }}
           extended: true
 
-      - name: Set up Node.js
+      - name: Set up Node.js # Necesario para npm
         uses: actions/setup-node@v4
         with:
           node-version: '20' 
 
-      - name: Install Dart Sass via npm
-        run: sudo npm install -g sass
+      # --- CAMBIOS AQUÍ ---
+      # Eliminamos la instalación GLOBAL de Sass y la adición al PATH
+      # - name: Install Dart Sass via npm
+      #   run: sudo npm install -g sass
+      # - name: Add npm bin to PATH
+      #   run: echo "$(npm bin -g)" >> $GITHUB_PATH
 
-      - name: Add npm bin to PATH
-        run: echo "$(npm bin -g)" >> $GITHUB_PATH
-
-      - name: Checkout code
+      - name: Checkout code # Mueve Checkout antes de npm install local
         uses: actions/checkout@v4
         with:
           submodules: true 
           fetch-depth: 0 
+
+      - name: Initialize npm and Install Sass Locally # Instala Sass en node_modules
+        run: |
+          npm init -y || true 
+          npm install --save-dev sass
+      # --- FIN CAMBIOS ---
+
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5 
-      # - name: Install node dependencies 
-      #   run: npm install 
+
       - name: Update Hugo Modules
         run: hugo mod tidy 
+
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: | 
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/" 
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3 
         with:
