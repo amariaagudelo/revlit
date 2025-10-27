@@ -36,6 +36,8 @@ jobs:
           node-version: '20' 
       - name: Install Dart Sass via npm
         run: sudo npm install -g sass
+      - name: Add npm bin to PATH
+        run: echo "$(npm bin -g)" >> $GITHUB_PATH
       - name: Checkout code
         uses: actions/checkout@v4
         with:
