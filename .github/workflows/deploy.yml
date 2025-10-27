@@ -26,56 +26,54 @@ jobs:
     env:
       HUGO_VERSION: 0.151.2 # ¡Verifica tu versión!
     steps:
-      - name: Setup Hugo
+      - name: Setup Hugo # Instala Hugo Extended
         uses: peaceiris/actions-hugo@v3
         with:
           version: ${{ env.HUGO_VERSION }}
           extended: true
 
-      - name: Set up Node.js # Necesario para npm
+      - name: Set up Node.js # Prepara Node/npm
         uses: actions/setup-node@v4
         with:
           node-version: '20' 
 
-      # --- CAMBIOS AQUÍ ---
-      # Eliminamos la instalación GLOBAL de Sass y la adición al PATH
-      # - name: Install Dart Sass via npm
-      #   run: sudo npm install -g sass
-      # - name: Add npm bin to PATH
-      #   run: echo "$(npm bin -g)" >> $GITHUB_PATH
+      - name: Install Dart Sass via npm (no sudo) # Instala Sass globalmente sin sudo
+        run: npm install -g sass
 
-      - name: Checkout code # Mueve Checkout antes de npm install local
+      - name: Add npm bin to PATH # Añade la carpeta global de npm al PATH
+        run: echo "$(npm bin -g)" >> $GITHUB_PATH
+
+      # --- PASO DE VERIFICACIÓN CLAVE ---
+      - name: Verify Sass Installation # Comprueba si Sass es ejecutable
+        run: sass --version 
+      # --- FIN PASO DE VERIFICACIÓN ---
+
+      - name: Checkout code # Descarga tu código
         uses: actions/checkout@v4
         with:
           submodules: true 
           fetch-depth: 0 
 
-      - name: Initialize npm and Install Sass Locally # Instala Sass en node_modules
-        run: |
-          npm init -y || true 
-          npm install --save-dev sass
-      # --- FIN CAMBIOS ---
-
-      - name: Setup Pages
+      - name: Setup Pages # Configura GitHub Pages
         id: pages
         uses: actions/configure-pages@v5 
 
-      - name: Update Hugo Modules
+      - name: Update Hugo Modules # Actualiza módulos del tema
         run: hugo mod tidy 
 
-      - name: Build with Hugo
+      - name: Build with Hugo # Construye el sitio
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: | 
           hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/" 
 
-      - name: Upload artifact
+      - name: Upload artifact # Sube el resultado (/public)
         uses: actions/upload-pages-artifact@v3 
         with:
           path: ./public
 
-  deploy:
+  deploy: # Trabajo de despliegue (sin cambios)
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
