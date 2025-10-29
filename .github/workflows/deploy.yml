@@ -23,28 +23,44 @@ defaults:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      # Usaremos una versión de Hugo instalada por la action
+      HUGO_VERSION: 0.151.2
+      # Y una versión fija de Dart Sass
+      SASS_VERSION: 1.77.8
     steps:
-      # 1. Instalar Hugo y Sass usando SNAP (como pide el README)
-      - name: Install Hugo (Extended) and Dart Sass
-        run: |
-          echo "Instalando Hugo y Dart Sass usando snap..."
-          sudo snap install hugo --channel=extended
-          sudo snap install dart-sass
+      # 1. Instalar Hugo (método 'peaceiris' que SÍ funciona)
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ env.HUGO_VERSION }}
+          extended: true
 
-      # --- ¡ESTA ES LA CORRECCIÓN CLAVE! ---
-      # 2. Añadir el directorio de snap al PATH
-      - name: Add Snap bin directory to PATH
+      # 2. Instalar Dart Sass (Método manual a /usr/local/bin)
+      - name: Install Dart Sass
         run: |
-          echo "Añadiendo /snap/bin al GITHUB_PATH"
-          echo "/snap/bin" >> $GITHUB_PATH
-      # --- FIN DE LA CORRECCIÓN ---
+          echo "Descargando Dart Sass v${{ env.SASS_VERSION }}"
+          # Descargamos el archivo tar.gz
+          curl -LJO "https://github.com/sass/dart-sass/releases/download/${{ env.SASS_VERSION }}/dart-sass-${{ env.SASS_VERSION }}-linux-x64.tar.gz"
+          
+          echo "Extrayendo..."
+          tar -xzf "dart-sass-${{ env.SASS_VERSION }}-linux-x64.tar.gz"
+          
+          echo "Moviendo el ejecutable a /usr/local/bin/"
+          # Movemos el contenido de la carpeta 'dart-sass' (que incluye el ejecutable 'sass')
+          # a un directorio que SÍ está en el PATH del sistema.
+          sudo mv dart-sass/* /usr/local/bin/
+          
+          echo "Limpiando archivos..."
+          rm -rf "dart-sass-${{ env.SASS_VERSION }}-linux-x64.tar.gz" dart-sass
 
-      # 3. Verificar que se instalaron (ahora SÍ debería encontrar sass)
+      # 3. Verificar que AMBOS se instalaron
       - name: Verify Installations
         run: |
           echo "Verificando Hugo:"
           hugo version
-          echo "Verificando Sass:"
+          echo "Verificando Sass (ahora en /usr/local/bin):"
+          which sass # Este comando nos dirá la ruta exacta
           sass --version
           
       # 4. Descargar tu código
