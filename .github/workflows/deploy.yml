@@ -23,58 +23,50 @@ defaults:
 jobs:
   build:
     runs-on: ubuntu-latest
-    env:
-      HUGO_VERSION: 0.151.2
-      # Definimos una versión estable de Dart Sass
-      SASS_VERSION: 1.77.8 
     steps:
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v3
-        with:
-          hugo-version: ${{ env.HUGO_VERSION }}
-          extended: true
-
-      # --- ESTA ES LA NUEVA SOLUCIÓN ---
-      - name: Setup Dart Sass (Manual Install)
+      # 1. Instalar Hugo y Sass usando SNAP (como pide el README)
+      - name: Install Hugo (Extended) and Dart Sass
         run: |
-          echo "Descargando Dart Sass v${{ env.SASS_VERSION }}"
-          # 1. Descarga el archivo de la release oficial de GitHub
-          curl -LJO "https://github.com/sass/dart-sass/releases/download/${{ env.SASS_VERSION }}/dart-sass-${{ env.SASS_VERSION }}-linux-x64.tar.gz"
-          
-          # 2. Descomprime el archivo
-          tar -xzf "dart-sass-${{ env.SASS_VERSION }}-linux-x64.tar.gz"
-          
-          # 3. Añade la carpeta 'dart-sass' (que contiene el ejecutable) al GITHUB_PATH
-          echo "Añadiendo $(pwd)/dart-sass al PATH"
-          echo "$(pwd)/dart-sass" >> $GITHUB_PATH
-      # --- FIN DE LA SOLUCIÓN ---
+          echo "Instalando Hugo y Dart Sass usando snap..."
+          # El README pide 'sudo snap install dart-sass hugo'
+          # Nos aseguramos de que Hugo sea 'extended' como también pide el README
+          sudo snap install hugo --channel=extended
+          sudo snap install dart-sass
 
+      # 2. Verificar que se instalaron
+      - name: Verify Installations
+        run: |
+          echo "Verificando Hugo:"
+          hugo version
+          echo "Verificando Sass:"
+          sass --version
+          
+      # 3. Descargar tu código
       - name: Checkout code 
         uses: actions/checkout@v4
         with:
           submodules: true 
           fetch-depth: 0 
-          
-      - name: Verify Sass Installation
-        run: |
-          echo "Verificando la instalación de Sass:"
-          which sass
-          sass --version
-          
+
+      # 4. Configurar GitHub Pages
       - name: Setup Pages 
         id: pages
         uses: actions/configure-pages@v5 
         
+      # 5. Descargar el tema Paige (Hugo Modules)
       - name: Update Hugo Modules 
         run: hugo mod tidy 
         
+      # 6. Construir el sitio
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: | 
-          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}/" 
+          # El README usa este comando de build:
+          hugo --environment production --minify --baseURL "${{ steps.pages.outputs.base_url }}/" 
           
+      # 7. Subir el artefacto
       - name: Upload artifact 
         uses: actions/upload-pages-artifact@v3 
         with:
