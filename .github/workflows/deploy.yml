@@ -24,12 +24,12 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.151.2 # ¡Verifica tu versión!
+      HUGO_VERSION: 0.151.2 # Usará esta versión
     steps:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          version: ${{ env.HUGO_VERSION }}
+          hugo-version: ${{ env.HUGO_VERSION }} # <-- CORRECCIÓN #1
           extended: true
 
       - name: Set up Node.js
@@ -48,7 +48,10 @@ jobs:
           npm init -y || true 
           npm install --save-dev sass
       
-      # --- Pasos de Depuración y PATH Explícito ---
+      - name: Dar permisos de ejecución a Sass # <-- CORRECCIÓN #2
+        run: chmod +x ./node_modules/.bin/sass
+
+      # --- Pasos de Depuración y PATH Explícito (Ahora deberían funcionar) ---
       - name: Check local Sass installation
         run: |
           echo "Listing node_modules/.bin:"
@@ -75,7 +78,7 @@ jobs:
       - name: Update Hugo Modules 
         run: hugo mod tidy 
         
-      - name: Build with Hugo # Construye el sitio (confiando en el PATH)
+      - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
@@ -87,7 +90,7 @@ jobs:
         with:
           path: ./public
 
-  deploy: # Trabajo de despliegue (sin cambios)
+  deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
