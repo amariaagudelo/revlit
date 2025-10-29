@@ -28,12 +28,18 @@ jobs:
       - name: Install Hugo (Extended) and Dart Sass
         run: |
           echo "Instalando Hugo y Dart Sass usando snap..."
-          # El README pide 'sudo snap install dart-sass hugo'
-          # Nos aseguramos de que Hugo sea 'extended' como también pide el README
           sudo snap install hugo --channel=extended
           sudo snap install dart-sass
 
-      # 2. Verificar que se instalaron
+      # --- ¡ESTA ES LA CORRECCIÓN CLAVE! ---
+      # 2. Añadir el directorio de snap al PATH
+      - name: Add Snap bin directory to PATH
+        run: |
+          echo "Añadiendo /snap/bin al GITHUB_PATH"
+          echo "/snap/bin" >> $GITHUB_PATH
+      # --- FIN DE LA CORRECCIÓN ---
+
+      # 3. Verificar que se instalaron (ahora SÍ debería encontrar sass)
       - name: Verify Installations
         run: |
           echo "Verificando Hugo:"
@@ -41,32 +47,31 @@ jobs:
           echo "Verificando Sass:"
           sass --version
           
-      # 3. Descargar tu código
+      # 4. Descargar tu código
       - name: Checkout code 
         uses: actions/checkout@v4
         with:
           submodules: true 
           fetch-depth: 0 
 
-      # 4. Configurar GitHub Pages
+      # 5. Configurar GitHub Pages
       - name: Setup Pages 
         id: pages
         uses: actions/configure-pages@v5 
         
-      # 5. Descargar el tema Paige (Hugo Modules)
+      # 6. Descargar el tema Paige (Hugo Modules)
       - name: Update Hugo Modules 
         run: hugo mod tidy 
         
-      # 6. Construir el sitio
+      # 7. Construir el sitio
       - name: Build with Hugo
         env:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run: | 
-          # El README usa este comando de build:
           hugo --environment production --minify --baseURL "${{ steps.pages.outputs.base_url }}/" 
           
-      # 7. Subir el artefacto
+      # 8. Subir el artefacto
       - name: Upload artifact 
         uses: actions/upload-pages-artifact@v3 
         with:
