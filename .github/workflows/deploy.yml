@@ -24,7 +24,6 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      # Mantenemos la versión de Hugo que sabemos funciona
       HUGO_VERSION: 0.151.2 
     steps:
       - name: Setup Hugo
@@ -33,19 +32,16 @@ jobs:
           hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
 
-      # PASO NUEVO: Instala Dart Sass globalmente
+      # --- ¡ESTA ES LA LÍNEA CORREGIDA! ---
       - name: Setup Dart Sass
-        uses: dart-sass/setup-dart-sass@v2
+        uses: sass/setup-sass@v2
 
       - name: Checkout code 
         uses: actions/checkout@v4
         with:
           submodules: true 
           fetch-depth: 0 
-
-      # Todos los pasos de 'npm', 'chmod' y 'PATH' se han eliminado.
-      
-      # Añadimos una verificación simple para ver si Sass funciona
+          
       - name: Verify Sass Installation
         run: sass --version
           
@@ -68,7 +64,7 @@ jobs:
         with:
           path: ./public
 
-  deploy: # El trabajo de despliegue no cambia
+  deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
