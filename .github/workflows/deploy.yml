@@ -24,7 +24,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      HUGO_VERSION: 0.151.2 
+      HUGO_VERSION: 0.151.2
+      # Definimos una versión estable de Dart Sass
+      SASS_VERSION: 1.77.8 
     steps:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
@@ -32,9 +34,20 @@ jobs:
           hugo-version: ${{ env.HUGO_VERSION }}
           extended: true
 
-      # --- ¡ESTA ES LA LÍNEA CORREGIDA! ---
-      - name: Setup Dart Sass
-        uses: sass/setup-sass@v2
+      # --- ESTA ES LA NUEVA SOLUCIÓN ---
+      - name: Setup Dart Sass (Manual Install)
+        run: |
+          echo "Descargando Dart Sass v${{ env.SASS_VERSION }}"
+          # 1. Descarga el archivo de la release oficial de GitHub
+          curl -LJO "https://github.com/sass/dart-sass/releases/download/${{ env.SASS_VERSION }}/dart-sass-${{ env.SASS_VERSION }}-linux-x64.tar.gz"
+          
+          # 2. Descomprime el archivo
+          tar -xzf "dart-sass-${{ env.SASS_VERSION }}-linux-x64.tar.gz"
+          
+          # 3. Añade la carpeta 'dart-sass' (que contiene el ejecutable) al GITHUB_PATH
+          echo "Añadiendo $(pwd)/dart-sass al PATH"
+          echo "$(pwd)/dart-sass" >> $GITHUB_PATH
+      # --- FIN DE LA SOLUCIÓN ---
 
       - name: Checkout code 
         uses: actions/checkout@v4
@@ -43,7 +56,10 @@ jobs:
           fetch-depth: 0 
           
       - name: Verify Sass Installation
-        run: sass --version
+        run: |
+          echo "Verificando la instalación de Sass:"
+          which sass
+          sass --version
           
       - name: Setup Pages 
         id: pages
