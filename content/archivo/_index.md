@@ -1,5 +1,6 @@
 +++
 title = "Archivo" 
+description = "Versiones digitalizadas de las revistas estudiadas"
 date = 2025-10-26T11:55:00-05:00 
 draft = false
 [paige.pages]

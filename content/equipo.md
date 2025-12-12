@@ -35,11 +35,11 @@ El proyecto *Digitalización y transferencias culturales en las revistas literar
 
 * <a href="https://www.cais-research.de/en/fellows/joerg-lehmann/" target="_blank" rel="noopener noreferrer">Jörg Lehmann</a>
 
-* <a href="https://scholar.google.com/citations?user=Nj9HtucAAAAJ&hl=es" target="_blank" rel="noopener noreferrer">Almary Cristina Díaz G.</a>
+* <a href="https://scholar.google.com/citations?user=Nj9HtucAAAAJ&hl=es" target="_blank" rel="noopener noreferrer">Almary Cristina Gutiérrez Díaz</a>
 
 ### Estudiantes de posgrado
 
-* Nancy Díaz Castro (Doctorado, Universidad de Tübingen)
+* Nancy Vargas Castro (Doctorado, Universidad de Tübingen)
 * Juan Esteban Hincapié (Doctorado, Universidad de Antioquia)
 * Cynthia González Pulgarín (Maestría, Universidad de Antioquia)
 
@@ -70,7 +70,6 @@ El proyecto *Digitalización y transferencias culturales en las revistas literar
 * Huber Fernando Gómez (Jefe de Servicios)
 * Cesar Augusto Salazar Romaña (Líder Proceso Gestión de Tecnología Informática)
 * Andrés Felipe Pérez Bedoya (Ingeniero de Desarrollo)
-
 
 ### Asesores técnicos
 

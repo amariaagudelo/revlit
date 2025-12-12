@@ -5,7 +5,7 @@
   ciudad: "Medellín"             # Según tu archivo
   circulacion: "1938-1943"  # Reemplazar
   repositorio: "Biblioteca UdeA" # Según tu archivo
-  url_digital: "https://hdl.handle.net/10495/29648"  # Reemplazar
+  url_digital: "https://bibliotecadigital.udea.edu.co/collections/7122e49a-95c2-4ecc-aa61-4b49350343d3?spc.page=1&query=Revista%20Femenina&spc.sf=score&spc.sd=DESC"  # Reemplazar
   imagen: "femenina.jpeg"      # Nombre exacto del archivo optimizado
 
 - titulo: "Athenea"
@@ -13,7 +13,7 @@
   ciudad: "Medellín"      # Reemplazar (BLAA es repositorio)
   circulacion: "1927-1928"   # Reemplazar
   repositorio: "Biblioteca UdeA"             # Según tu archivo
-  url_digital: "https://hdl.handle.net/10495/29648" # Según tu archivo
+  url_digital: "https://bibliotecadigital.udea.edu.co/collections/7122e49a-95c2-4ecc-aa61-4b49350343d3?spc.page=1&query=Athenea&spc.sf=score&spc.sd=DESC&f.dateIssued.min=1927&f.dateIssued.max=1928" # Según tu archivo
   imagen: "athenea.jpeg"        # Nombre exacto del archivo optimizado
 
 - titulo: "Lectura y arte"

@@ -37,27 +37,37 @@ Este sitio web reúne la mayor parte de esos resultados y los pone a disposició
 * {{< paige/icon class="bi bi-clipboard-check-fill" >}} **Protocolo de indexación**            
 La búsqueda de indicios de transferencias literarias se sistematizó en bases de datos, las cuales posteriormente fueron analizadas con metodologías computacionales y postulados de la sociología de la literatura. Para el adecuado diligenciamiento de las bases de datos se diseñó un Protocolo de uso, con el fin de minimizar los errores y unificar los criterios de compilación de la información. <a href="https://doi.org/10.5281/zenodo.6965032" target="_blank" rel="noopener noreferrer"> Acceder al Protocolo</a>
 
-* {{< paige/icon class="bi bi-database-fill" >}} **Bases de datos (datasets)**                           
+* {{< paige/icon class="bi bi-database-fill" >}} **Bases de datos (datasets)** 
+
 Los conjuntos de datos incluyen los modelos de captura de datos de las 28 revistas, un modelo unificado con datos biográficos de los autores encontrados, un subconjunto de datos con las traducciones que se publicaron en estas revistas, otro con los textos publicados por mujeres y un modelo de datos para el análisis y visualización de redes. <a href="https://doi.org/10.5281/zenodo.15153917" target="_blank" rel="noopener noreferrer"> Acceder a las bases de datos</a>
 
 ### Modelado de datos y redes
 
 * {{< paige/icon class="bi bi-git" >}} **Notebook:** Revistas culturales y literarias colombianas (1881-1947): análisis y visualización de datos <a href="https://https://danilopenagos.github.io/Revistas-Culturales-Colombianas-1881-1947" target="_blank" rel="noopener noreferrer"> Acceder</a>
 
-* {{< paige/icon class="bi bi-git" >}} **Notebook:** Modelado de datos para el análisis de redes en revistas colombianas <a href="https://danilopenagos.github.io/revistas-culturales-data-sprint-04/" target="_blank" rel="noopener noreferrer"> Acceder</a>
+* {{< paige/icon class="bi bi-git" >}} **Notebook:** Modelado de datos para el análisis de redes en revistas colombianas <a href="https://danilopenagos.github.io/Revistas-Culturales-Colombianas-1881-1947/" target="_blank" rel="noopener noreferrer"> Acceder</a>
+
+### Desarrollo de app
+
+* {{< paige/icon class="bi bi-window-stack" title="App" >}} **App:** Hemerograph. Aplicación con herramientas para visualización de datos (redes, geográfica y mapas, dashboard), desarrollada por Danilo Penagos J. <a href="https://hemerograph.streamlit.app" target="_blank" rel="noopener noreferrer"> Acceder</a>
+
+### Textos académicos
 
 * {{< paige/icon class="bi bi-journal-text" >}} **Artículo:** Penagos Jaramillo, D., y Vargas Castro, N. (2024). Modelado de datos para el estudio de redes en revistas culturales y literarias: estudio de caso con trece publicaciones colombianas. Cuadernos del CILHA, (40) <a href="https://doi.org/10.48162/rev.34.090" target="_blank" rel="noopener noreferrer"> Acceder</a>
 
 * {{< paige/icon class="bi bi-journal-text" >}} **Artículo:** Ehrlicher, H. (2024). Redes en revistas y revistas como redes: nuevos retos metodológicos. Cuadernos del CILHA, (40) <a href="https://doi.org/10.48162/rev.34.087" target="_blank" rel="noopener noreferrer"> Acceder</a>
+
+* {{< paige/icon class="bi bi-book" >}} **Libro (en proceso editorial):** Agudelo Ochoa, A. M., Ehrlicher, H. y Crespo, R. (Edits.). Prismas de la diversidad cultural. Estudios revisteriles latinoamericanos.
 
 ### Investigaciones estudiantes en formación: posgrado y pregrado
 
 * {{< paige/icon class="bi bi-mortarboard-fill" >}} **Trabajo de grado:** Transferencias culturales en *Panida* (1915): una aproximación
 desde el análisis de redes. Trabajo de grado Filología Hispánica (Universidad de Antioquia), Andrés Felipe López E. <a href="https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/c393c5eb-1a96-4086-baa7-f34b64d9b19e/content" target="_blank" rel="noopener noreferrer"> Acceder</a>
 
-
 * {{< paige/icon class="bi bi-mortarboard-fill" >}} **Monografía maestría:** Revista *Athenea* (Medellín, 1927-1928): prácticas revisteriles y transferencias culturales en una revista editada por mujeres y dirigida al público femenino. Trabajo de investigación de Maestría en Literatura (Universidad de Antioquia), Cynthia González Pulgarín <a href="https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/f85a8418-1bb6-4f83-91c5-8088ac60c8b3/content" target="_blank" rel="noopener noreferrer"> Acceder</a>
 
-* {{< paige/icon class="bi bi-mortarboard-fill" >}} **Tesis doctoral:** Transferencias culturales y análisis de redes en seis revistas colombianas (1904-1920). Investigación doctoral (Universidad de Tübingen, Nancy Vargas Castro. En curso
+* {{< paige/icon class="bi bi-mortarboard-fill" >}} **Tesis doctoral:** Transferencias culturales y análisis de redes en seis revistas colombianas (1904-1920). Investigación doctoral (Universidad de Tübingen), Nancy Vargas Castro. En curso
 
-* {{< paige/icon class="bi bi-mortarboard-fill" >}} **Tesis doctoral:** Edición crítico-genética digital de Frutos de mi tierra (1896) de Tomás Carrasquilla y la configuración de la ciudad finisecular en la voz del narrador del relato. Investigación doctoral (Universidad de Antioquia), Juan Esteban Hincapié. En curso
+* {{< paige/icon class="bi bi-mortarboard-fill" >}} **Tesis doctoral:** Edición crítico-genética digital de *Frutos de mi tierra* (1896) de Tomás Carrasquilla y la configuración de la ciudad finisecular en la voz del narrador del relato. Investigación doctoral (Universidad de Antioquia), Juan Esteban Hincapié. En curso
+
+* {{< paige/icon class="bi bi-file-earmark-richtext" >}} **Edición digital:** *Frutos Digital*, derivado de la investigación doctoral (Universidad de Antioquia), Juan Esteban Hincapié. <a href="https://frutosdigital.net/about/" target="_blank" rel="noopener noreferrer"> Acceder</a>

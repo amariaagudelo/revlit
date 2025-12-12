@@ -1,6 +1,6 @@
 baseURL = "https://amariaagudelo.github.io/revlit/"
 languageCode = "es-co"
-title = "De la tinta al pixel"
+title = "Revistas en red"
 
 [module]
   [[module.imports]]
