@@ -1201,16 +1201,38 @@
 
   <div id="paige-page-content" class="mw-100"> 
       
+      
       <div id="paige-list-introduction" class="container-fluid mb-4"> 
-         
+        
+      </div>
+
+      
+      
+      <div class="d-flex gap-2 mb-4 justify-content-center">
+        <span class="align-self-center text-muted small me-2">Ordenar por:</span>
+        <button class="btn btn-sm btn-outline-secondary" onclick="ordenarRevistas('titulo')">
+            <i class="bi bi-sort-alpha-down"></i> Título
+        </button>
+        <button class="btn btn-sm btn-outline-secondary" onclick="ordenarRevistas('anio')">
+            <i class="bi bi-calendar-event"></i> Año
+        </button>
       </div>
       
 
       
        
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 mt-4 archivo-grid"> 
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 g-4 mt-4 archivo-grid" id="grid-revistas"> 
          
-        <div class="col">
+        
+        
+        
+        
+        
+            
+        
+
+        
+        <div class="col item-revista" data-titulo="Revista femenina" data-anio="1938">
           <div class="card h-100 shadow-sm">
             
              
@@ -1219,7 +1241,7 @@
             
                
               <img src="/revlit/images/portadas/femenina_hu_e870dca87751a231.jpeg" 
-                   alt="Portada Revista Femenina" 
+                   alt="Portada Revista femenina" 
                    class="card-img-top" 
                    width="300" 
                    height="431" 
@@ -1227,16 +1249,31 @@
             
 
             <div class="card-body d-flex flex-column"> 
-              <h5 class="card-title">Revista Femenina</h5>
-              <p class="card-text small text-muted">Editor(es): Tulia Restrepo Gaviria</p>
+              <h5 class="card-title">Revista femenina</h5>
               <p class="card-text small text-muted">Ciudad: Medellín</p>
               <p class="card-text small text-muted mb-auto">Años: 1938-1943</p> 
-              <a href="https://bibliotecadigital.udea.edu.co/collections/7122e49a-95c2-4ecc-aa61-4b49350343d3?spc.page=1&amp;query=Revista%20Femenina&amp;spc.sf=score&amp;spc.sd=DESC" class="btn btn-sm btn-outline-primary mt-3" target="_blank" rel="noopener noreferrer">Ver en Biblioteca UdeA</a>
+              
+              
+              
+                <a href="https://bibliotecadigital.udea.edu.co/collections/7122e49a-95c2-4ecc-aa61-4b49350343d3?spc.page=1&amp;query=Revista%20Femenina&amp;spc.sf=score&amp;spc.sd=DESC" class="btn btn-sm btn-outline-primary mt-3" target="_blank" rel="noopener noreferrer">
+                    Ver en Biblioteca UdeA
+                </a>
+              
+
             </div>
           </div>
         </div>
          
-        <div class="col">
+        
+        
+        
+        
+        
+            
+        
+
+        
+        <div class="col item-revista" data-titulo="Athenea" data-anio="1927">
           <div class="card h-100 shadow-sm">
             
              
@@ -1254,15 +1291,30 @@
 
             <div class="card-body d-flex flex-column"> 
               <h5 class="card-title">Athenea</h5>
-              <p class="card-text small text-muted">Editor(es): Susana Olózaga de Cabo</p>
               <p class="card-text small text-muted">Ciudad: Medellín</p>
               <p class="card-text small text-muted mb-auto">Años: 1927-1928</p> 
-              <a href="https://bibliotecadigital.udea.edu.co/collections/7122e49a-95c2-4ecc-aa61-4b49350343d3?spc.page=1&amp;query=Athenea&amp;spc.sf=score&amp;spc.sd=DESC&amp;f.dateIssued.min=1927&amp;f.dateIssued.max=1928" class="btn btn-sm btn-outline-primary mt-3" target="_blank" rel="noopener noreferrer">Ver en Biblioteca UdeA</a>
+              
+              
+              
+                <a href="https://bibliotecadigital.udea.edu.co/collections/7122e49a-95c2-4ecc-aa61-4b49350343d3?spc.page=1&amp;query=Athenea&amp;spc.sf=score&amp;spc.sd=DESC&amp;f.dateIssued.min=1927&amp;f.dateIssued.max=1928" class="btn btn-sm btn-outline-primary mt-3" target="_blank" rel="noopener noreferrer">
+                    Ver en Biblioteca UdeA
+                </a>
+              
+
             </div>
           </div>
         </div>
          
-        <div class="col">
+        
+        
+        
+        
+        
+            
+        
+
+        
+        <div class="col item-revista" data-titulo="Lectura y arte" data-anio="1903">
           <div class="card h-100 shadow-sm">
             
              
@@ -1280,15 +1332,30 @@
 
             <div class="card-body d-flex flex-column"> 
               <h5 class="card-title">Lectura y arte</h5>
-              <p class="card-text small text-muted">Editor(es): Antonio J. Cano</p>
               <p class="card-text small text-muted">Ciudad: Medellín</p>
               <p class="card-text small text-muted mb-auto">Años: 1903-1905</p> 
-              <a href="https://babel.banrepcultural.org/digital/collection/p17054coll26/id/7445/rec/1" class="btn btn-sm btn-outline-primary mt-3" target="_blank" rel="noopener noreferrer">Ver en BLAA</a>
+              
+              
+              
+                <a href="https://babel.banrepcultural.org/digital/collection/p17054coll26/id/7445/rec/1" class="btn btn-sm btn-outline-primary mt-3" target="_blank" rel="noopener noreferrer">
+                    Ver en BLAA
+                </a>
+              
+
             </div>
           </div>
         </div>
          
-        <div class="col">
+        
+        
+        
+        
+        
+            
+        
+
+        
+        <div class="col item-revista" data-titulo="Alpha" data-anio="1930">
           <div class="card h-100 shadow-sm">
             
              
@@ -1306,18 +1373,372 @@
 
             <div class="card-body d-flex flex-column"> 
               <h5 class="card-title">Alpha</h5>
-              <p class="card-text small text-muted">Editor(es): J. Yepes Morales y Jorge López Sanín</p>
               <p class="card-text small text-muted">Ciudad: Medellín</p>
               <p class="card-text small text-muted mb-auto">Años: 1930</p> 
-              <a href="http://resolver.iai.spk-berlin.de/IAI0000695300000000%20" class="btn btn-sm btn-outline-primary mt-3" target="_blank" rel="noopener noreferrer">Ver en IAI</a>
+              
+              
+              
+                <a href="http://resolver.iai.spk-berlin.de/IAI0000695300000000%20" class="btn btn-sm btn-outline-primary mt-3" target="_blank" rel="noopener noreferrer">
+                    Ver en IAI
+                </a>
+              
+
+            </div>
+          </div>
+        </div>
+         
+        
+        
+        
+        
+        
+            
+        
+
+        
+        <div class="col item-revista" data-titulo="La bohemia alegre" data-anio="1895">
+          <div class="card h-100 shadow-sm">
+            
+             
+             
+
+            
+               
+              <img src="/revlit/images/portadas/bohemia_hu_46457c1f36be51f9.jpeg" 
+                   alt="Portada La bohemia alegre" 
+                   class="card-img-top" 
+                   width="300" 
+                   height="499" 
+                   loading="lazy">
+            
+
+            <div class="card-body d-flex flex-column"> 
+              <h5 class="card-title">La bohemia alegre</h5>
+              <p class="card-text small text-muted">Ciudad: Medellín</p>
+              <p class="card-text small text-muted mb-auto">Años: 1895-1897</p> 
+              
+              
+              
+                <a href="https://bibliotecadigital.udea.edu.co/collections/7122e49a-95c2-4ecc-aa61-4b49350343d3/browse/title?bbm.page=1&amp;startsWith=Bohemia%20Alegre%20" class="btn btn-sm btn-outline-primary mt-3" target="_blank" rel="noopener noreferrer">
+                    Ver en Biblioteca UdeA
+                </a>
+              
+
+            </div>
+          </div>
+        </div>
+         
+        
+        
+        
+        
+        
+            
+        
+
+        
+        <div class="col item-revista" data-titulo="Caminos" data-anio="1922">
+          <div class="card h-100 shadow-sm">
+            
+             
+             
+
+            
+               
+              <img src="/revlit/images/portadas/caminos_hu_4eea8392ed6683a2.jpeg" 
+                   alt="Portada Caminos" 
+                   class="card-img-top" 
+                   width="300" 
+                   height="426" 
+                   loading="lazy">
+            
+
+            <div class="card-body d-flex flex-column"> 
+              <h5 class="card-title">Caminos</h5>
+              <p class="card-text small text-muted">Ciudad: Barranquilla</p>
+              <p class="card-text small text-muted mb-auto">Años: 1922</p> 
+              
+              
+              
+                <button class="btn btn-sm btn-light text-muted mt-3 border" disabled style="cursor: not-allowed;">
+                    <i class="bi bi-slash-circle me-1"></i> Sin digitalizar
+                </button>
+              
+
+            </div>
+          </div>
+        </div>
+         
+        
+        
+        
+        
+        
+            
+        
+
+        
+        <div class="col item-revista" data-titulo="Cántico" data-anio="1944">
+          <div class="card h-100 shadow-sm">
+            
+             
+             
+
+            
+               
+              <img src="/revlit/images/portadas/cantico_hu_af345853fc1cf880.jpeg" 
+                   alt="Portada Cántico" 
+                   class="card-img-top" 
+                   width="300" 
+                   height="441" 
+                   loading="lazy">
+            
+
+            <div class="card-body d-flex flex-column"> 
+              <h5 class="card-title">Cántico</h5>
+              <p class="card-text small text-muted">Ciudad: Bogota</p>
+              <p class="card-text small text-muted mb-auto">Años: 1944-1947</p> 
+              
+              
+              
+                <button class="btn btn-sm btn-light text-muted mt-3 border" disabled style="cursor: not-allowed;">
+                    <i class="bi bi-slash-circle me-1"></i> Sin digitalizar
+                </button>
+              
+
+            </div>
+          </div>
+        </div>
+         
+        
+        
+        
+        
+        
+            
+        
+
+        
+        <div class="col item-revista" data-titulo="Cyrano" data-anio="1921">
+          <div class="card h-100 shadow-sm">
+            
+             
+             
+
+            
+               
+              <img src="/revlit/images/portadas/cyrano_hu_23aac76ea0a7dc78.jpeg" 
+                   alt="Portada Cyrano" 
+                   class="card-img-top" 
+                   width="300" 
+                   height="439" 
+                   loading="lazy">
+            
+
+            <div class="card-body d-flex flex-column"> 
+              <h5 class="card-title">Cyrano</h5>
+              <p class="card-text small text-muted">Ciudad: Medellín</p>
+              <p class="card-text small text-muted mb-auto">Años: 1921-1923</p> 
+              
+              
+              
+                <a href="https://bibliotecadigital.udea.edu.co/collections/7122e49a-95c2-4ecc-aa61-4b49350343d3/browse/title?bbm.page=1&amp;startsWith=Cyrano%20" class="btn btn-sm btn-outline-primary mt-3" target="_blank" rel="noopener noreferrer">
+                    Ver en Biblioteca UdeA
+                </a>
+              
+
+            </div>
+          </div>
+        </div>
+         
+        
+        
+        
+        
+        
+            
+        
+
+        
+        <div class="col item-revista" data-titulo="La Golondrina" data-anio="1881">
+          <div class="card h-100 shadow-sm">
+            
+             
+             
+
+            
+               
+              <img src="/revlit/images/portadas/golondrina_hu_689c2dc7ec96ee3a.jpeg" 
+                   alt="Portada La Golondrina" 
+                   class="card-img-top" 
+                   width="300" 
+                   height="432" 
+                   loading="lazy">
+            
+
+            <div class="card-body d-flex flex-column"> 
+              <h5 class="card-title">La Golondrina</h5>
+              <p class="card-text small text-muted">Ciudad: Medellín</p>
+              <p class="card-text small text-muted mb-auto">Años: 1881</p> 
+              
+              
+              
+                <a href="https://bibliotecadigital.udea.edu.co/collections/7122e49a-95c2-4ecc-aa61-4b49350343d3/browse/title?bbm.page=1&amp;startsWith=Golondrina%20" class="btn btn-sm btn-outline-primary mt-3" target="_blank" rel="noopener noreferrer">
+                    Ver en Biblioteca UdeA
+                </a>
+              
+
+            </div>
+          </div>
+        </div>
+         
+        
+        
+        
+        
+        
+            
+        
+
+        
+        <div class="col item-revista" data-titulo="Hispania" data-anio="1912">
+          <div class="card h-100 shadow-sm">
+            
+             
+             
+
+            
+               
+              <img src="/revlit/images/portadas/hispania_hu_1125233d439f9f0a.jpeg" 
+                   alt="Portada Hispania" 
+                   class="card-img-top" 
+                   width="300" 
+                   height="482" 
+                   loading="lazy">
+            
+
+            <div class="card-body d-flex flex-column"> 
+              <h5 class="card-title">Hispania</h5>
+              <p class="card-text small text-muted">Ciudad: Londres</p>
+              <p class="card-text small text-muted mb-auto">Años: 1912-1916</p> 
+              
+              
+              
+                <a href="https://bibliotecadigital.udea.edu.co/collections/7122e49a-95c2-4ecc-aa61-4b49350343d3?spc.page=1&amp;query=Hispania%20" class="btn btn-sm btn-outline-primary mt-3" target="_blank" rel="noopener noreferrer">
+                    Ver en Biblioteca UdeA
+                </a>
+              
+
+            </div>
+          </div>
+        </div>
+         
+        
+        
+        
+        
+        
+            
+        
+
+        
+        <div class="col item-revista" data-titulo="Revista literaria" data-anio="1890">
+          <div class="card h-100 shadow-sm">
+            
+             
+             
+
+            
+               
+              <img src="/revlit/images/portadas/revistaliter_hu_9c85afffab5ba7cd.jpg" 
+                   alt="Portada Revista literaria" 
+                   class="card-img-top" 
+                   width="300" 
+                   height="457" 
+                   loading="lazy">
+            
+
+            <div class="card-body d-flex flex-column"> 
+              <h5 class="card-title">Revista literaria</h5>
+              <p class="card-text small text-muted">Ciudad: Bogotá</p>
+              <p class="card-text small text-muted mb-auto">Años: 1890-1894</p> 
+              
+              
+              
+                <a href="https://babel.banrepcultural.org/digital/collection/p17054coll26/id/10504%20" class="btn btn-sm btn-outline-primary mt-3" target="_blank" rel="noopener noreferrer">
+                    Ver en BLAA
+                </a>
+              
+
+            </div>
+          </div>
+        </div>
+         
+        
+        
+        
+        
+        
+            
+        
+
+        
+        <div class="col item-revista" data-titulo="Escuela literaria" data-anio="1891">
+          <div class="card h-100 shadow-sm">
+            
+             
+             
+
+            
+               
+              <img src="/revlit/images/portadas/escuelaliter_hu_e7932a407f335197.jpg" 
+                   alt="Portada Escuela literaria" 
+                   class="card-img-top" 
+                   width="300" 
+                   height="468" 
+                   loading="lazy">
+            
+
+            <div class="card-body d-flex flex-column"> 
+              <h5 class="card-title">Escuela literaria</h5>
+              <p class="card-text small text-muted">Ciudad: Bogotá</p>
+              <p class="card-text small text-muted mb-auto">Años: 1891</p> 
+              
+              
+              
+                <button class="btn btn-sm btn-light text-muted mt-3 border" disabled style="cursor: not-allowed;">
+                    <i class="bi bi-slash-circle me-1"></i> Sin digitalizar
+                </button>
+              
+
             </div>
           </div>
         </div>
          
       </div>
-      
        
   </div> 
+
+  
+  <script>
+    function ordenarRevistas(criterio) {
+      const grid = document.getElementById('grid-revistas');
+      const items = Array.from(grid.getElementsByClassName('item-revista'));
+
+      items.sort((a, b) => {
+        let valA = a.getAttribute('data-' + criterio).toLowerCase();
+        let valB = b.getAttribute('data-' + criterio).toLowerCase();
+
+        if (criterio === 'anio') {
+            return parseInt(valA) - parseInt(valB);
+        } else {
+            return valA.localeCompare(valB);
+        }
+      });
+
+      items.forEach(item => grid.appendChild(item));
+    }
+  </script>
 
 
                     

@@ -20,14 +20,13 @@ draft = false
   """ 
 +++
 
-El proyecto *Digitalización y transferencias culturales en las revistas literarias colombianas (1892-1950)* es una apuesta colectiva que aúna los esfuerzos de investigadores, investigadoras, estudiantes y personal técnico de la Universidad de Antioquia y de la Universidad de Tübingen. La coordinación académica y la administración del proyecto estuvieron a cargo de la Dra. Ana María Agudelo Ochoa (Universidad de Antioquia) y del Dr. Phil. Hanno Ehrlicher (Universidad de Tübingen). Ellos, junto a Nancy Vargas Castro (Universidad de Antioquia- Universidad de Tübingen), Danilo Penagos Jaramillo (Universidad de Antioquia -Universidad de Tübingen) y Jörg Lehmann (Universidad de Tübingen), diseñaron el proyecto y gestionaron su financiación por parte de la DFG y la Universidad de Antioquia. A lo largo de los 5 años de trabajo, muchas personas se unieron y aportaron al logro de los objetivos.
-
+El proyecto *Digitalización y transferencias culturales en las revistas literarias colombianas (1892-1950)* es una apuesta colectiva que aúna los esfuerzos de investigadores, investigadoras, estudiantes y personal técnico de la Universidad de Antioquia y de la Universidad de Tübingen.
 
 ### Coordinación académica y administración del proyecto
 
 * <a href="https://antioquia.academia.edu/AnaMariaAgudeloOchoa" target="_blank" rel="noopener noreferrer">Dra. Ana María Agudelo Ochoa</a> y <a href="https://uni-tuebingen.de/en/fakultaeten/philosophische-fakultaet/fachbereiche/neuphilologie/romanisches-seminar/ehrlicher/ehrlicher/" target="_blank" rel="noopener noreferrer">Dr. Phil. Hanno Ehrlicher</a>. 
 
-### Co-investigadores y equipo de diseño del proyecto: 
+### Co-investigadores y equipo de diseño del proyecto 
 
 * <a href="https://uni-tuebingen.de/en/fakultaeten/philosophische-fakultaet/fachbereiche/neuphilologie/romanisches-seminar/ehrlicher/ehrlicher/team/nancy-vargas-castro/" target="_blank" rel="noopener noreferrer">Nancy Vargas Castro</a>
 
