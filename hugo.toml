@@ -26,7 +26,7 @@ title = "Revistas en red"
     weight = 10 # Primero
 
   [[menu.main]]
-    name = "Proyecto"
+    name = "Acerca"
     pageRef = "/proyecto"
     weight = 20 # Segundo
 
@@ -36,12 +36,12 @@ title = "Revistas en red"
     weight = 30 # Tercero
 
   [[menu.main]]
-    name = "Análisis"
+    name = "Resultados"
     pageRef = "/analisis"
     weight = 40 # Cuarto
 
   [[menu.main]]
-    name = "Archivo"
+    name = "Revistas digitalizadas"
     pageRef = "/archivo"
     weight = 50 # Quinto
 

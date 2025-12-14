@@ -1,5 +1,5 @@
 +++
-title = "Análisis y Procesos"
+title = "Resultados de investigación"
 date = 2025-10-25T00:00:00-05:00 # Ajusta fecha
 draft = false
 
@@ -17,57 +17,198 @@ draft = false
   """ 
 +++
 
-Durante sus casi 5 años de duración (2020-2025), el proyecto obtuvo importantes resultados: formación de investigadoras e investigadores; presentación de ponencias y conferencias en eventos, tanto presenciales como en remoto, en diferentes países latinoamericanos y europeos; organización de eventos académicos; diseño, puesta a prueba y consolidación de un protocolo de digitalización minimal computing; los cimientos de un repositorio de revistas literarias colombianas; bases de datos que registran las evidencias de transferencias en el corpus de revistas estudiado; visualizaciones; textos académicos y de divulgación de la ciencia; consolidación de redes de investigación. 
-
 Este sitio web reúne la mayor parte de esos resultados y los pone a disposición de todas las personas interesadas en: las dinámicas de circulación de ideas a través de los impresos, en el análisis y visualización de datos como aporte a los estudios literarios, en la preservación de archivos impresos con herramientas de *minimal computing.*
 
-### Proceso de digitalización
+<div class="row row-cols-1 row-cols-md-3 g-4 mb-5 justify-content-center">
 
-* {{< paige/icon class="bi bi-book-fill" >}} **Manual de digitalización**  
-    Una de las líneas de experimentación, formación y desarrollo de la investigación tuvo como resultado un protocolo de digitalización *minimal computing*. La documentación de esta etapa del proyecto derivó en un Manual dirigido a personal de bibliotecas, archivos y centros de documentación; investigadores, estudiantes y gestores culturales; colectivos ciudadanos o cualquier persona interesada en preservar materiales impresos mediante la digitalización, sin la necesidad de contar con un presupuesto elevado. <a href="https://zenodo.org/records/17248179" target="_blank" rel="noopener noreferrer">Acceder al Manual de digitalización</a>
+  <div class="col">
+    <div class="card h-100 shadow-sm border-light bg-light">
+      <div class="card-body text-center">
+        <div class="display-4 text-primary mb-3"><i class="bi bi-book-half"></i></div>
+        <h5 class="card-title">Manual de digitalización</h5>
+        <p class="card-text small text-muted">Guía práctica de *minimal computing* para bibliotecas, archivos y gestores culturales con presupuesto limitado.</p>
+        <div class="d-flex gap-2 justify-content-center mt-3">
+          <a href="https://zenodo.org/records/17248179" class="btn btn-sm btn-primary" target="_blank">Descargar Manual</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-* {{< paige/icon class="bi bi-archive-fill" >}} **Repositorio Revistas Culturales y Literarias**.     
-    El corpus de revistas objeto de estudio se encuentra disperso en diferentes bibliotecas del país y del exterior, algunas de ellas hacen parte de la colección patrimonial del Sistema de Bibliotecas de la Universidad de Antioquia. En el marco del proyecto, estas últimas fueron digitalizadas con el fin de crear un repositorio de revistas culturales y de sentar las bases de un flujo de digitalización permanente, gracias al cual se aporta a la preservación digital y democratización del acceso al archivo patrimonial custodiado por la Universidad. <a href="https://hdl.handle.net/10495/29648" target="_blank" rel="noopener noreferrer">Explorar el Repositorio</a>
+  <div class="col">
+    <div class="card h-100 shadow-sm border-light bg-light">
+      <div class="card-body text-center">
+        <div class="display-4 text-primary mb-3"><i class="bi bi-archive-fill"></i></div>
+        <h5 class="card-title">Repositorio de Revistas</h5>
+        <p class="card-text small text-muted">Colección digitalizada de revistas patrimoniales custodiadas por la Universidad de Antioquia.</p>
+        <div class="d-flex gap-2 justify-content-center mt-3">
+          <a href="https://hdl.handle.net/10495/29648" class="btn btn-sm btn-primary" target="_blank">Explorar Repositorio</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-* {{< paige/icon class="bi bi-camera-fill" >}} **Escáner Úrsula (DIY)**                                
-    La imposibilidad de contar con un escáner de alto costo fue la motivación para desarrollar un proceso de creación y experimentación conjunta donde estudiantes, investigadores y personal técnico aportaron sus habilidades y conocimientos para el diseño, construcción y puesta en funcionamiento de Úrsula. <a href="https://www.youtube.com/watch?v=jE0OanUoI1g&list=PLrSbk8QC4eCmo8fQ8LPd10DAGCAwQ9vT0&index=7" target="_blank" rel="noopener noreferrer">Sobre el proceso de construcción de Úrsula</a>
+  <div class="col">
+    <div class="card h-100 shadow-sm border-light bg-light">
+      <div class="card-body text-center">
+        <div class="display-4 text-primary mb-3"><i class="bi bi-upc-scan"></i></div>
+        <h5 class="card-title">Escáner Úrsula (DIY)</h5>
+        <p class="card-text small text-muted">Diseño y construcción colectiva de un escáner de bajo costo para la digitalización de patrimonio.</p>
+        <div class="d-flex gap-2 justify-content-center mt-3">
+          <a href="https://www.youtube.com/watch?v=jE0OanUoI1g&list=PLrSbk8QC4eCmo8fQ8LPd10DAGCAwQ9vT0&index=7" class="btn btn-sm btn-outline-primary" target="_blank">Ver Proceso</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-### Proceso de indexación y datasets
+  <div class="col">
+    <div class="card h-100 shadow-sm border-light bg-light">
+      <div class="card-body text-center">
+        <div class="display-4 text-primary mb-3"><i class="bi bi-table"></i></div>
+        <h5 class="card-title">Protocolo y Datasets</h5>
+        <p class="card-text small text-muted">Modelos de captura de datos biográficos, traducciones y redes de las 28 revistas.</p>
+        <div class="d-flex gap-2 justify-content-center mt-3">
+            <a href="https://doi.org/10.5281/zenodo.6965032" class="btn btn-sm btn-outline-primary" target="_blank">Protocolo</a>
+            <a href="https://doi.org/10.5281/zenodo.15153917" class="btn btn-sm btn-outline-primary" target="_blank">Datasets</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-* {{< paige/icon class="bi bi-clipboard-check-fill" >}} **Protocolo de indexación**            
-La búsqueda de indicios de transferencias literarias se sistematizó en bases de datos, las cuales posteriormente fueron analizadas con metodologías computacionales y postulados de la sociología de la literatura. Para el adecuado diligenciamiento de las bases de datos se diseñó un Protocolo de uso, con el fin de minimizar los errores y unificar los criterios de compilación de la información. <a href="https://doi.org/10.5281/zenodo.6965032" target="_blank" rel="noopener noreferrer"> Acceder al Protocolo</a>
+  <div class="col">
+    <div class="card h-100 shadow-sm border-light bg-light">
+      <div class="card-body text-center">
+        <div class="display-4 text-primary mb-3"><i class="bi bi-diagram-3-fill"></i></div>
+        <h5 class="card-title">App Hemerograph</h5>
+        <p class="card-text small text-muted">Aplicación interactiva para la visualización de redes y mapas desarrollada por Danilo Penagos.</p>
+        <div class="d-flex gap-2 justify-content-center mt-3">
+          <a href="https://hemerograph.streamlit.app" class="btn btn-sm btn-primary" target="_blank">Abrir Aplicación <i class="bi bi-box-arrow-up-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-* {{< paige/icon class="bi bi-database-fill" >}} **Bases de datos (datasets)** 
+  <div class="col">
+    <div class="card h-100 shadow-sm border-light bg-light">
+      <div class="card-body text-center">
+        <div class="display-4 text-primary mb-3"><i class="bi bi-code-square"></i></div>
+        <h5 class="card-title">Notebooks de Análisis</h5>
+        <p class="card-text small text-muted">Cuadernos de código abiertos para reproducir el análisis y visualización.</p>
+        <div class="d-flex gap-2 justify-content-center mt-3">
+             <a href="https://danilopenagos.github.io/Revistas-Culturales-Colombianas-1881-1947" class="btn btn-sm btn-outline-primary" target="_blank">Análisis</a>
+             <a href="https://danilopenagos.github.io/Revistas-Culturales-Colombianas-1881-1947/" class="btn btn-sm btn-outline-primary" target="_blank">Modelado</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-Los conjuntos de datos incluyen los modelos de captura de datos de las 28 revistas, un modelo unificado con datos biográficos de los autores encontrados, un subconjunto de datos con las traducciones que se publicaron en estas revistas, otro con los textos publicados por mujeres y un modelo de datos para el análisis y visualización de redes. <a href="https://doi.org/10.5281/zenodo.15153917" target="_blank" rel="noopener noreferrer"> Acceder a las bases de datos</a>
+  <div class="col">
+    <div class="card h-100 shadow-sm border-light bg-light">
+      <div class="card-body text-center">
+        <div class="display-4 text-primary mb-3"><i class="bi bi-window-fullscreen"></i></div>
+        <h5 class="card-title">Edición digital</h5>
+        <p class="card-text small text-muted">Edición digital de la novela <em>Frutos de mi tierra</em>, de Tomás Carrasquilla.</p>
+        <div class="d-flex gap-2 justify-content-center mt-3">
+             <a href="https://frutosdigital.net/" class="btn btn-sm btn-outline-primary" target="_blank">Ver</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-### Modelado de datos y redes
+  <div class="col">
+    <div class="card h-100 shadow-sm border-light bg-light">
+      <div class="card-body text-center">
+        <div class="display-4 text-primary mb-3"><i class="bi bi-journal-code"></i></div>
+        <h5 class="card-title">Artículo</h5>
+        <p class="card-text small text-muted">Penagos Jaramillo, D., y Vargas Castro, N. (2024). Modelado de datos... <em>Cuadernos del CILHA</em>, (40).</p>
+        <div class="d-flex gap-2 justify-content-center mt-3">
+             <a href="https://revistas.uncu.edu.ar/ojs3/index.php/cilha/article/view/7289" class="btn btn-sm btn-outline-primary" target="_blank">Leer artículo</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-* {{< paige/icon class="bi bi-git" >}} **Notebook:** Revistas culturales y literarias colombianas (1881-1947): análisis y visualización de datos <a href="https://https://danilopenagos.github.io/Revistas-Culturales-Colombianas-1881-1947" target="_blank" rel="noopener noreferrer"> Acceder</a>
+   <div class="col">
+    <div class="card h-100 shadow-sm border-light bg-light">
+      <div class="card-body text-center">
+        <div class="display-4 text-primary mb-3"><i class="bi bi-journal-code"></i></div>
+        <h5 class="card-title">Artículo</h5>
+        <p class="card-text small text-muted">Ehrlicher, H. (2024). Redes en revistas y revistas como redes... <em>Cuadernos del CILHA</em>, (40).</p>
+        <div class="d-flex gap-2 justify-content-center mt-3">
+             <a href="https://revistas.uncu.edu.ar/ojs3/index.php/cilha/article/view/7244" class="btn btn-sm btn-outline-primary" target="_blank">Leer artículo</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-* {{< paige/icon class="bi bi-git" >}} **Notebook:** Modelado de datos para el análisis de redes en revistas colombianas <a href="https://danilopenagos.github.io/Revistas-Culturales-Colombianas-1881-1947/" target="_blank" rel="noopener noreferrer"> Acceder</a>
+  <div class="col">
+    <div class="card h-100 shadow-sm border-light bg-light">
+      <div class="card-body text-center">
+        <div class="display-4 text-primary mb-3"><i class="bi bi-book"></i></div>
+        <h5 class="card-title">Libro</h5>
+        <p class="card-text small text-muted">Agudelo Ochoa, A. M., Ehrlicher, H. y Crespo, R. (Edits.). <em>Prismas de la diversidad cultural. Estudios revisteriles latinoamericanos.</em></p>
+        <div class="d-flex gap-2 justify-content-center mt-3">
+            <span class="badge bg-secondary">Próximamente</span>
+        </div>
+      </div>
+    </div>
+  </div>
 
-### Desarrollo de app
+  <div class="col">
+    <div class="card h-100 shadow-sm border-light bg-light">
+      <div class="card-body text-center">
+        <div class="display-4 text-primary mb-3"><i class="bi bi-mortarboard"></i></div>
+        <h5 class="card-title">Trabajo de grado</h5>
+        <p class="card-text small text-muted"><em>Transferencias culturales en Panida (1915)...</em> Andrés Felipe López E.</p>
+        <div class="d-flex gap-2 justify-content-center mt-3">
+          <a href="https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/c393c5eb-1a96-4086-baa7-f34b64d9b19e/content" class="btn btn-sm btn-outline-primary" target="_blank">Leer</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-* {{< paige/icon class="bi bi-window-stack" title="App" >}} **App:** Hemerograph. Aplicación con herramientas para visualización de datos (redes, geográfica y mapas, dashboard), desarrollada por Danilo Penagos J. <a href="https://hemerograph.streamlit.app" target="_blank" rel="noopener noreferrer"> Acceder</a>
+  <div class="col">
+    <div class="card h-100 shadow-sm border-light bg-light">
+      <div class="card-body text-center">
+        <div class="display-4 text-primary mb-3"><i class="bi bi-mortarboard"></i></div>
+        <h5 class="card-title">Monografía maestría</h5>
+        <p class="card-text small text-muted">
+          <em>Revista Athenea (Medellín, 1927-1928): prácticas revisteriles...</em> Cynthia González Pulgarín.
+        </p>
+        <div class="d-flex gap-2 justify-content-center mt-3">
+           <a href="https://bibliotecadigital.udea.edu.co/entities/publication/ebed923a-e4fc-4aa3-8d9f-59f5b39b305a" class="btn btn-sm btn-outline-primary" target="_blank">Acceder</a>
+        </div>
+      </div>
+    </div>
+  </div>
 
-### Textos académicos
+  <div class="col">
+    <div class="card h-100 shadow-sm border-light bg-light">
+      <div class="card-body text-center">
+        <div class="display-4 text-primary mb-3"><i class="bi bi-person-workspace"></i></div>
+        <h5 class="card-title">Tesis doctoral</h5>
+        <p class="card-text small text-muted">
+          <em>Transferencias culturales y análisis de redes en seis revistas...</em> Nancy Vargas Castro.
+        </p>
+        <div class="d-flex gap-2 justify-content-center mt-3">
+          <span class="badge bg-info text-dark">En curso</span>
+        </div>
+      </div>
+    </div>
+  </div>
 
-* {{< paige/icon class="bi bi-journal-text" >}} **Artículo:** Penagos Jaramillo, D., y Vargas Castro, N. (2024). Modelado de datos para el estudio de redes en revistas culturales y literarias: estudio de caso con trece publicaciones colombianas. Cuadernos del CILHA, (40) <a href="https://doi.org/10.48162/rev.34.090" target="_blank" rel="noopener noreferrer"> Acceder</a>
+  <div class="col">
+    <div class="card h-100 shadow-sm border-light bg-light">
+      <div class="card-body text-center">
+        <div class="display-4 text-primary mb-3"><i class="bi bi-person-workspace"></i></div>
+        <h5 class="card-title">Tesis doctoral</h5>
+        <p class="card-text small text-muted">
+          <em>Edición crítico-genética digital de Frutos de mi tierra...</em> Juan Esteban Hincapié.
+        </p>
+        <div class="d-flex gap-2 justify-content-center mt-3">
+           <span class="badge bg-info text-dark">En curso</span>
+        </div>
+      </div>
+    </div>
+  </div>
 
-* {{< paige/icon class="bi bi-journal-text" >}} **Artículo:** Ehrlicher, H. (2024). Redes en revistas y revistas como redes: nuevos retos metodológicos. Cuadernos del CILHA, (40) <a href="https://doi.org/10.48162/rev.34.087" target="_blank" rel="noopener noreferrer"> Acceder</a>
-
-* {{< paige/icon class="bi bi-book" >}} **Libro (en proceso editorial):** Agudelo Ochoa, A. M., Ehrlicher, H. y Crespo, R. (Edits.). Prismas de la diversidad cultural. Estudios revisteriles latinoamericanos.
-
-### Investigaciones estudiantes en formación: posgrado y pregrado
-
-* {{< paige/icon class="bi bi-mortarboard-fill" >}} **Trabajo de grado:** Transferencias culturales en *Panida* (1915): una aproximación
-desde el análisis de redes. Trabajo de grado Filología Hispánica (Universidad de Antioquia), Andrés Felipe López E. <a href="https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/c393c5eb-1a96-4086-baa7-f34b64d9b19e/content" target="_blank" rel="noopener noreferrer"> Acceder</a>
-
-* {{< paige/icon class="bi bi-mortarboard-fill" >}} **Monografía maestría:** Revista *Athenea* (Medellín, 1927-1928): prácticas revisteriles y transferencias culturales en una revista editada por mujeres y dirigida al público femenino. Trabajo de investigación de Maestría en Literatura (Universidad de Antioquia), Cynthia González Pulgarín <a href="https://bibliotecadigital.udea.edu.co/server/api/core/bitstreams/f85a8418-1bb6-4f83-91c5-8088ac60c8b3/content" target="_blank" rel="noopener noreferrer"> Acceder</a>
-
-* {{< paige/icon class="bi bi-mortarboard-fill" >}} **Tesis doctoral:** Transferencias culturales y análisis de redes en seis revistas colombianas (1904-1920). Investigación doctoral (Universidad de Tübingen), Nancy Vargas Castro. En curso
-
-* {{< paige/icon class="bi bi-mortarboard-fill" >}} **Tesis doctoral:** Edición crítico-genética digital de *Frutos de mi tierra* (1896) de Tomás Carrasquilla y la configuración de la ciudad finisecular en la voz del narrador del relato. Investigación doctoral (Universidad de Antioquia), Juan Esteban Hincapié. En curso
-
-* {{< paige/icon class="bi bi-file-earmark-richtext" >}} **Edición digital:** *Frutos Digital*, derivado de la investigación doctoral (Universidad de Antioquia), Juan Esteban Hincapié. <a href="https://frutosdigital.net/about/" target="_blank" rel="noopener noreferrer"> Acceder</a>
+</div>

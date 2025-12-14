@@ -1,5 +1,5 @@
 +++
-title = "Equipo de Investigación"
+title = "Equipo"
 date = 2025-10-23T00:00:00-05:00 
 draft = false
 
@@ -22,59 +22,157 @@ draft = false
 
 El proyecto *Digitalización y transferencias culturales en las revistas literarias colombianas (1892-1950)* es una apuesta colectiva que aúna los esfuerzos de investigadores, investigadoras, estudiantes y personal técnico de la Universidad de Antioquia y de la Universidad de Tübingen.
 
-### Coordinación académica y administración del proyecto
+<div class="row row-cols-1 row-cols-md-3 g-4 mb-5">
 
-* <a href="https://antioquia.academia.edu/AnaMariaAgudeloOchoa" target="_blank" rel="noopener noreferrer">Dra. Ana María Agudelo Ochoa</a> y <a href="https://uni-tuebingen.de/en/fakultaeten/philosophische-fakultaet/fachbereiche/neuphilologie/romanisches-seminar/ehrlicher/ehrlicher/" target="_blank" rel="noopener noreferrer">Dr. Phil. Hanno Ehrlicher</a>. 
+  <div class="col">
+    <div class="card h-100 shadow-sm border-light">
+      <div class="card-body">
+        <h5 class="card-title">Dra. Ana María Agudelo O.</h5>
+        <h6 class="card-subtitle mb-3 text-muted">Coordinación académica</h6>
+        <p class="card-text small">Universidad de Antioquia</p>
+        <a href="https://antioquia.academia.edu/AnaMariaAgudeloOchoa" class="card-link small" target="_blank" rel="noopener noreferrer">Ver Perfil Académico <i class="bi bi-box-arrow-up-right"></i></a>
+      </div>
+    </div>
+  </div>
 
-### Co-investigadores y equipo de diseño del proyecto 
+  <div class="col">
+    <div class="card h-100 shadow-sm border-light">
+      <div class="card-body">
+        <h5 class="card-title">Dr. Phil. Hanno Ehrlicher</h5>
+        <h6 class="card-subtitle mb-3 text-muted">Coordinación académica</h6>
+        <p class="card-text small">Universität Tübingen</p>
+        <a href="https://uni-tuebingen.de/en/fakultaeten/philosophische-fakultaet/fachbereiche/neuphilologie/romanisches-seminar/ehrlicher/ehrlicher/" class="card-link small" target="_blank" rel="noopener noreferrer">Ver Perfil Académico <i class="bi bi-box-arrow-up-right"></i></a>
+      </div>
+    </div>
+  </div>
 
-* <a href="https://uni-tuebingen.de/en/fakultaeten/philosophische-fakultaet/fachbereiche/neuphilologie/romanisches-seminar/ehrlicher/ehrlicher/team/nancy-vargas-castro/" target="_blank" rel="noopener noreferrer">Nancy Vargas Castro</a>
+  <div class="col">
+    <div class="card h-100 shadow-sm border-light">
+      <div class="card-body">
+        <h5 class="card-title">Danilo Penagos Jaramillo</h5>
+        <h6 class="card-subtitle mb-3 text-muted">Co-investigador</h6>
+        <p class="card-text small">Universität Tübingen</p>
+        <p class="card-text small">Universidad de Antioquia</p>
+        <a href="https://uni-tuebingen.de/en/fakultaeten/philosophische-fakultaet/fachbereiche/neuphilologie/romanisches-seminar/ehrlicher/ehrlicher/team/danilo-penagos/" class="card-link small" target="_blank" rel="noopener noreferrer">Ver Perfil <i class="bi bi-box-arrow-up-right"></i></a>
+      </div>
+    </div>
+  </div>
 
-* <a href="https://uni-tuebingen.de/en/fakultaeten/philosophische-fakultaet/fachbereiche/neuphilologie/romanisches-seminar/ehrlicher/ehrlicher/team/danilo-penagos/" target="_blank" rel="noopener noreferrer">Danilo Penagos Jaramillo</a>
+   <div class="col">
+    <div class="card h-100 shadow-sm border-light">
+      <div class="card-body">
+        <h5 class="card-title">Nancy Vargas Castro</h5>
+        <h6 class="card-subtitle mb-3 text-muted">Estudiante de doctorado</h6>
+        <p class="card-text small">Universität Tübingen</p>
+        <a href="https://uni-tuebingen.de/en/fakultaeten/philosophische-fakultaet/fachbereiche/neuphilologie/romanisches-seminar/ehrlicher/ehrlicher/team/nancy-vargas-castro/" class="card-link small" target="_blank" rel="noopener noreferrer">Ver Perfil <i class="bi bi-box-arrow-up-right"></i></a>
+      </div>
+    </div>
+  </div>
 
-* <a href="https://www.cais-research.de/en/fellows/joerg-lehmann/" target="_blank" rel="noopener noreferrer">Jörg Lehmann</a>
+   <div class="col">
+    <div class="card h-100 shadow-sm border-light">
+      <div class="card-body">
+        <h5 class="card-title">Almary Cristina Gutiérrez D.</h5>
+        <h6 class="card-subtitle mb-3 text-muted">Co-investigadora</h6>
+        <p class="card-text small">Universidad de Antioquia</p>
+        <a href="https://scholar.google.com/citations?user=Nj9HtucAAAAJ&hl=es" class="card-link small" target="_blank" rel="noopener noreferrer">Ver Perfil <i class="bi bi-box-arrow-up-right"></i></a>
+      </div>
+    </div>
+  </div>
 
-* <a href="https://scholar.google.com/citations?user=Nj9HtucAAAAJ&hl=es" target="_blank" rel="noopener noreferrer">Almary Cristina Gutiérrez Díaz</a>
+   <div class="col">
+    <div class="card h-100 shadow-sm border-light">
+      <div class="card-body">
+        <h5 class="card-title">Jörg Lehmann</h5>
+        <h6 class="card-subtitle mb-3 text-muted">Co-investigador</h6>
+        <p class="card-text small">Universität Tübingen</p>
+        <a href="https://www.cais-research.de/en/fellows/joerg-lehmann/" class="card-link small" target="_blank" rel="noopener noreferrer">Ver Perfil <i class="bi bi-box-arrow-up-right"></i></a>
+      </div>
+    </div>
+  </div>
 
-### Estudiantes de posgrado
+  <div class="col">
+    <div class="card h-100 shadow-sm border-light">
+      <div class="card-body">
+        <h5 class="card-title">Dr. Tatiana Pérez R.</h5>
+        <h6 class="card-subtitle mb-3 text-muted">Co-investigadora</h6>
+        <p class="card-text small">Universidad de Antioquia</p>
+        <a href="https://scholar.google.com/citations?user=-PaXnqUAAAAJ&hl=es" class="card-link small" target="_blank" rel="noopener noreferrer">Ver Perfil <i class="bi bi-box-arrow-up-right"></i></a>
+      </div>
+    </div>
+  </div>
 
-* Nancy Vargas Castro (Doctorado, Universidad de Tübingen)
-* Juan Esteban Hincapié (Doctorado, Universidad de Antioquia)
-* Cynthia González Pulgarín (Maestría, Universidad de Antioquia)
+  <div class="col">
+    <div class="card h-100 shadow-sm border-light">
+      <div class="card-body">
+        <h5 class="card-title">Juan Esteban Hincapié A.</h5>
+        <h6 class="card-subtitle mb-2 text-muted">Estudiante de doctorado</h6>
+        <p class="card-text small">Universidad de Antioquia</p>
+        <a href="https://scholar.google.com/citations?user=Mog-3swAAAAJ&hl=es" class="card-link small" target="_blank" rel="noopener noreferrer">Ver Perfil <i class="bi bi-box-arrow-up-right"></i></a>
+      </div>
+    </div>
+  </div>
 
-### Estudiantes de pregrado
+   <div class="col">
+    <div class="card h-100 shadow-sm border-light">
+      <div class="card-body">
+        <h5 class="card-title">Dr. Paula Andrea Montoya A.</h5>
+        <h6 class="card-subtitle mb-3 text-muted">Co-investigadora</h6>
+        <p class="card-text small">Universidad de Antioquia</p>
+        <a href="https://orcid.org/0000-0002-8286-7622" class="card-link small" target="_blank" rel="noopener noreferrer">Ver Perfil <i class="bi bi-box-arrow-up-right"></i></a>
+      </div>
+    </div>
+  </div>
 
-* Andrés López (Filología Hispánica)
-* Santiago Puerta (Filología Hispánica)
-* Melany Castro (Filología Hispánica)
-* Natalia Ariza (Filología Hispánica)
-* Natalia Restrepo (Filología Hispánica)
-* Melissa Arteaga (Historia)
-* Karen Urrego (Filología Hispánica)
-* Daniela López (Filología Hispánica)
-* Juliana Betancur (Periodismo)
-* David Cardona (Filología Hispánica)
-* Saile Conde (Filología Hispánica)
+  <div class="card h-100 shadow-sm border-light">
+      <div class="card-body">
+        <h5 class="card-title mb-3">Estudiantes de Maestría y Pregrado</h5>
+        <ul class="list-unstyled small text-muted mb-0">
+          <li class="mb-1">Cynthia González P. (Maestría en Literatura)</li>
+          <li class="mb-1">Andrés López (Filología Hispánica)</li>
+          <li class="mb-1">Santiago Puerta (Filología Hispánica)</li>
+          <li class="mb-1">Melany Castro (Filología Hispánica)</li>
+          <li class="mb-1">Natalia Ariza (Filología Hispánica)</li>
+          <li class="mb-1">Natalia Restrepo (Filología Hispánica)</li>
+          <li class="mb-1">Melissa Arteaga (Historia)</li>
+          <li class="mb-1">Karen Urrego (Filología Hispánica)</li>
+          <li class="mb-1">Daniela López (Filología Hispánica)</li>
+          <li class="mb-1">Juliana Betancur (Periodismo)</li>
+          <li class="mb-1">David Cardona (Filología Hispánica)</li>
+          <li class="mb-1">Saile Conde (Filología Hispánica)</li>
+        </ul>
+      </div>
+    </div>
 
-### Co-investigadoras y asesoras académicas
+  <div class="col">
+    <div class="card h-100 shadow-sm border-light">
+      <div class="card-body">
+        <h5 class="card-title mb-3">Personal Sistema de Bibliotecas UdeA</h5>
+        <ul class="list-unstyled small text-muted mb-0">
+          <li class="mb-1">Mg. Doris L. Henao H. (Coord. Sistema de Bibliotecas)</li>
+          <li class="mb-1">Mg. Hernando Lopera L. (Coord. Sistema de Bibliotecas)</li>
+          <li class="mb-1">Historiador José Luis Arboleda (Coord. de Colecciones Patrimoniales)</li>
+          <li class="mb-1">Mg.Manuela Vélez (Coord. Sistema de Revistas)</li>
+          <li class="mb-1">Mg. Huber Fernando Gómez (Jefe de Servicios)</li>
+          <li class="mb-1">Ing. Cesar Augusto Salazar (Líder Gestión TI)</li>
+          <li class="mb-1">Ing. Andrés Felipe Pérez (Ingeniero de Desarrollo)</li>
+          <li class="mb-1">Ing. Iván Guzmán (Procesos Técnicos)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-* Dra. Tatiana Pérez Robles (Departamento de Historia, Universidad de Antioquia)
-* Dra. Paula Andrea Montoya (Escuela de Idiomas, Universidad de Antioquia)
+  <div class="col">
+    <div class="card h-100 shadow-sm border-light">
+      <div class="card-body">
+        <h5 class="card-title mb-3">Asesores técnicos</h5>
+        <ul class="list-unstyled small text-muted mb-0">
+          <li class="mb-1">Mag. Juan Pablo Sánchez</li>
+          <li class="mb-1">Dr. Víctor Vallejo Z.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 
-### Personal Sistema de Bibliotecas Universidad de Antioquia
-
-* José Luis Arboleda (Coordinador de Colecciones Patrimoniales)
-* Iván Guzmán (Procesos Técnicos)
-* Manuela Vélez (Coordinadora Sistema de Revistas)
-* Huber Fernando Gómez (Jefe de Servicios)
-* Cesar Augusto Salazar Romaña (Líder Proceso Gestión de Tecnología Informática)
-* Andrés Felipe Pérez Bedoya (Ingeniero de Desarrollo)
-
-### Asesores técnicos
-
-* Mag. Juan Pablo Sánchez
-* Dr. Víctor Vallejo Z.
-
----
-
-*Las afiliaciones institucionales corresponden a las que estaban activas al momento de participar en el proyecto.
+</div>
+Las afiliaciones institucionales corresponden a las que estaban activas al momento de participar en el proyecto.

@@ -16,7 +16,7 @@ disable_word_count = true
 <div class="container-fluid">
     <div class="justify-content-center row">
         <div class="col col-auto col-lg-8 px-0">
-            <p class="lead mb-0 text-center">Este sitio web reúne los resultados del proyecto de investigación <em>Digitalización y transferencias culturales en las revistas literarias colombianas (1892-1950)</em>, desarrollado por la Universidad de Antioquia (Colombia) y la Universidad de Tübingen (Alemania), cofinanciado por la DFG y la Universidad de Antioquia. </p>
+            <p class="lead mb-0 text-center">Este sitio web reúne los resultados del proyecto de investigación <em>Digitization and Analysis of Cultural Transfers in Colombian Literary Magazines (1892–1950) [Digitalización y transferencias culturales en las revistas literarias colombianas (1892-1950)]</em>, desarrollado por la Universidad de Antioquia (Colombia) y la Universidad de Tübingen (Alemania), cofinanciado por la DFG y la Universidad de Antioquia. </p>
         </div>
     </div>
 </div>
